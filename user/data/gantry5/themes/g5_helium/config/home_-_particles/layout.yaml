@@ -101,7 +101,7 @@ content:
       imageOverlay: disable
       items:
         -
-          image: 'gantry-media://header/DSCF6816-5.jpg'
+          image: 'gantry-media://header/DSCF6816-Edit 1g.jpg'
           title: 'IT Support Made Easy'
           desc: 'Call 0115 928 0908'
           link: ''
@@ -109,20 +109,20 @@ content:
           buttonclass: ''
           name: 'Item 2'
         -
-          image: 'gantry-media://header/DSCF6816-Edit.jpg'
+          image: 'gantry-media://header/DSCF6816-Edit 1c.jpg'
           title: 'IT Support Made Easy'
-          desc: 'Call us now on 0115 928 0908'
-          link: 'http://gantry.org/downloads'
-          linktext: 'Download Now'
-          buttonclass: button-outline
+          desc: 'Call 0115 928 0908'
+          link: ''
+          linktext: ''
+          buttonclass: ''
           name: 'Item 2'
         -
-          image: 'gantry-media://header/dreamstime_l_42348208.jpg'
+          image: 'gantry-media://header/DSCF6816-Edit 1g.jpg'
           title: 'IT Support Made Easy'
-          desc: 'Call us now on 0115 928 0908'
-          link: 'http://gantry.org/downloads'
-          linktext: 'Download Now'
-          buttonclass: button-outline
+          desc: 'Call 0115 928 0908'
+          link: ''
+          linktext: ''
+          buttonclass: ''
           name: 'Item 2'
   custom-5807:
     title: Intro
