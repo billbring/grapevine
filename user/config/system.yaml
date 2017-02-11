@@ -1,0 +1,8 @@
+home:
+  alias: '/home'
+
+pages:
+  theme: g5_helium
+
+twig:
+  autoescape: true

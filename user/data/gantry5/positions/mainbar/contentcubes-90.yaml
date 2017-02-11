@@ -1,0 +1,67 @@
+type: particle
+title: 'Content Cubes'
+chrome:
+  display_title: false
+  class: ''
+options:
+  type: contentcubes
+  title: 'Content Cubes'
+  attributes:
+    enabled: '1'
+    css:
+      class: ''
+    title: 'Content Cubes'
+    items:
+      -
+        image: 'gantry-media://above/img02.jpeg'
+        imageposition: right
+        label: Particle
+        title: 'This is a sample of the Content Cubes particle in Helium theme.'
+        tags:
+          -
+            icon: 'fa fa-tag'
+            link: '#'
+            target: _self
+            text: gantry
+          -
+            icon: 'fa fa-tag'
+            link: '#'
+            target: _self
+            text: particle
+          -
+            icon: 'fa fa-tag'
+            link: '#'
+            target: _self
+            text: cube
+        link: '#'
+        linktext: '&rarr;'
+        buttonclass: ''
+        buttontarget: _self
+        name: 'Cube 1'
+      -
+        image: 'gantry-media://above/img01.jpeg'
+        imageposition: left
+        label: Particle
+        title: 'This is a sample of the Content Cubes particle in Helium theme.'
+        tags:
+          -
+            icon: 'fa fa-tag'
+            link: '#'
+            target: _self
+            text: grav
+          -
+            icon: 'fa fa-tag'
+            link: '#'
+            target: _self
+            text: wordpress
+          -
+            icon: 'fa fa-tag'
+            link: '#'
+            target: _self
+            text: joomla
+        link: '#'
+        linktext: '&rarr;'
+        buttonclass: ''
+        buttontarget: _self
+        name: 'Cube 2'
+assignments: all

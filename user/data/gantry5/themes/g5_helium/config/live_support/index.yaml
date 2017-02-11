@@ -1,0 +1,62 @@
+name: live_support
+timestamp: 1486849593
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1475608600
+positions:
+  sidebar: Sidebar
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  header: Header
+  mainbar: Mainbar
+  sidebar: Sidebar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  spacer:
+    spacer-9209: Spacer
+    spacer-8407: Spacer
+  custom:
+    custom-2004: 'Custom HTML'
+  position:
+    position-position-3949: Sidebar
+  logo:
+    logo-9268: 'Logo / Image'
+    logo-1243: 'Logo / Image'
+  menu:
+    menu-2261: Menu
+  social:
+    social-5629: Social
+  content:
+    system-content-9616: 'Page Content'
+  horizontalmenu:
+    horizontalmenu-6557: 'Horizontal Menu'
+  copyright:
+    copyright-1393: Copyright
+  totop:
+    totop-7994: 'To Top'
+  mobile-menu:
+    mobile-menu-7118: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    mainbar: mainbar
+    footer: footer
+    offcanvas: offcanvas
+    logo-9268: logo-9608
+    menu-2261: menu-6409
+    social-5629: social-3171
+    system-content-9616: system-content-1587
+    logo-1243: logo-9571
+    horizontalmenu-6557: horizontalmenu-9034
+    copyright-1393: copyright-1736
+    totop-7994: totop-8670
+    mobile-menu-7118: mobile-menu-5697

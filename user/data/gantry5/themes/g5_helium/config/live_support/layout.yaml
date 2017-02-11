@@ -1,0 +1,103 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1475608600
+layout:
+  navigation: {  }
+  /header/: {  }
+  /intro/:
+    -
+      - 'spacer-9209 25'
+      - 'custom-2004 50'
+      - 'spacer-8407 25'
+  /features/: {  }
+  /utility/: {  }
+  /above/: {  }
+  /testimonials/: {  }
+  /expanded/: {  }
+  /container-main/:
+    -
+      -
+        'mainbar 75': {  }
+      -
+        'sidebar 25':
+          -
+            - position-position-3949
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  header:
+    attributes:
+      boxed: '1'
+      class: ''
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+  features:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  mainbar:
+    type: section
+    subtype: main
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
+  sidebar:
+    type: section
+    subtype: aside
+    attributes:
+      class: ''
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - children
+        - attributes
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  custom-2004:
+    title: 'Custom HTML'
+    attributes:
+      html: "<script type=\"text/javascript\">\n    function pullQueryString() {\n        var error = window.location.search;\n        if (error.substring(0, 1) == \"?\") {\n            error = error.substring(1);\n        }\n        return error;\n    }\n</script>\n\n<form name=\"logmeinsupport\" action=\"https://secure.logmeinrescue.com/Customer/Code.aspx\"\n method=\"post\" id=\"logmeinsupport\">\n  <div>\n      <span>Enter your 6-digit code: </span><input type=\"text\" name=\"Code\" /><br />\n      <input class=\"button button-xsmall\" style=\"margin-top:1rem\" type=\"submit\" value=\"Connect to technician\" />\n      <input type=\"hidden\" name=\"tracking0\" maxlength=\"64\" /> <!-- optional -->\n      <input type=\"hidden\" name=\"language\" maxlength=\"5\" /> <!-- optional -->\n      <input type=\"hidden\" name=\"hostederrorhandling\" value=\"1\" />\n\n      <div style=\"clear:both;\"></div>\n      <b><font color=\"red\">\n         <script type=\"text/javascript\">\n             var response = pullQueryString();\n             response = response.substring(22);\n\n             if(response.toLowerCase() == \"pincode_missing\"){document.write(\"Assisted service can be obtained by first<br />contacting support at 0115 9280 908.\" + \"<br />\");\n             }\n             else if(response.toLowerCase() == \"pincode_invalid\"){document.write(\"The PIN code you have entered is invalid.\" + \"<br />\");\n             }\n             else if(response.toLowerCase() == \"pincode_expired\"){document.write(\"The PIN code you have entered is expired.\" + \"<br />\");\n             }\n             else if(response.toLowerCase() == \"pincode_error\"){document.write(\"The PIN code you have entered is invalid.\" + \"<br />\");\n             }\n             else if(response.toLowerCase() == \"pincode_alreadyused\"){document.write(\"The PIN code you have entered has already been used.\" + \"<br />\");\n             }\n             else{\n                 document.write(response) + \"<br />\";\n             }\n         </script>\n         </font></b>\n\n  </div>\n</form>\n"
+  position-position-3949:
+    title: Sidebar
+    attributes:
+      key: sidebar
