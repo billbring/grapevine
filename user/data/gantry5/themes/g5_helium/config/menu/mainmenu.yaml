@@ -114,13 +114,6 @@ items:
     dropdown_hide: '0'
     width: 35rem
     anchor_class: ''
-  live-support:
-    enabled: '1'
-    dropdown_dir: right
-    dropdown_hide: '0'
-    width: auto
-    class: btn-support
-    anchor_class: ''
   form:
     columns:
       - 100
@@ -129,6 +122,12 @@ items:
     dropdown_hide: '0'
     width: auto
     anchor_class: ''
+  live-support:
+    enabled: '1'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    class: btn-support
   styles/__particle-2IjaB:
     type: particle
     particle: custom

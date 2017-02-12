@@ -3,10 +3,10 @@ base:
   background: '#ffffff'
   text-color: '#424753'
 accent:
-  color-1: '#4db2b3'
+  color-1: '#b7cf88'
   color-2: '#8f4dae'
 font:
-  family-default: 'family=Open+Sans:300'
+  family-default: 'family=Open+Sans:400'
   family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
 navigation:
   background: '#312f38'
@@ -40,9 +40,9 @@ footer:
   background: '#312f38'
   text-color: '#ffffff'
 offcanvas:
-  background: '#4db2b3'
+  background: '#6b833c'
   text-color: '#eceeef'
-  toggle-color: '#4db2b3'
+  toggle-color: '#6b833c'
   toggle-visibility: '1'
   width: 12rem
 breakpoints:

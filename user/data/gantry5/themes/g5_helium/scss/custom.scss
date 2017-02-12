@@ -1,6 +1,15 @@
 @import "dependencies";
 
-.g-logo.g-logo-helium svg{max-height: 98px;}
+$gv-light: #6b833c;
+$gv-dark: #356535;
+$blue-accent: #0070b9;
+
+
+.g-logo.g-logo-helium svg {
+  max-height: 98px;
+  .gv{fill:white}
+  .nm, .icon{fill:$gv-light}
+}
 
 .callout {
   padding: 0;
@@ -17,19 +26,16 @@
 }
 
 .btn-support {
-  background: rgba(107,131,59,1);
+  background: $blue-accent;
   border-radius: 6px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 5px;
-  padding-bottom: 4px;
+  padding:5px 15px 4px 15px;
 }
 
 .left-align .callout{text-align: left;}
 
 #g-intro#g-intro {
-  //padding-top:0;
-  //padding-bottom:3rem;
+  padding-top:0;
+  padding-bottom:2rem;
 }
 
 .g-owlcarousel-item-title {
@@ -38,7 +44,7 @@
 
 /****************************
 **** CAROUSEL TPYOGRAPHY ****
-***************************
+*****************************
 .g-owlcarousel-item-title {
     font-family: get-font-family($font-family-default);
     font-size: 5rem;

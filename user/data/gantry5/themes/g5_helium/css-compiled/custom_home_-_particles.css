@@ -12,44 +12,54 @@
 /* line 12, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 2, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_utilities.scss */
 /* line 9, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_utilities.scss */
-/* line 3, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 8, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .g-logo.g-logo-helium svg {
   max-height: 98px;
 }
-/* line 5, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 10, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.g-logo.g-logo-helium svg .gv {
+  fill: white;
+}
+/* line 11, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.g-logo.g-logo-helium svg .nm, .g-logo.g-logo-helium svg .icon {
+  fill: #6b833c;
+}
+/* line 14, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .callout {
   padding: 0;
   background: transparent;
 }
-/* line 10, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 19, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .fp-intro p {
   font-size: 1.4rem;
 }
-/* line 14, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 23, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .zero-padding .g-content {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 19, user/data/gantry5/themes/g5_helium/scss/custom.scss */
-.btn-support {
-  background: rgba(107, 131, 59, 1);
-  border-radius: 6px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 5px;
-  padding-bottom: 4px;
-}
 /* line 28, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.btn-support {
+  background: #0070b9;
+  border-radius: 6px;
+  padding: 5px 15px 4px 15px;
+}
+/* line 34, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .left-align .callout {
   text-align: left;
 }
-/* line 35, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 36, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+#g-intro#g-intro {
+  padding-top: 0;
+  padding-bottom: 2rem;
+}
+/* line 41, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .g-owlcarousel-item-title {
   text-shadow: 2px 3px 7px rgba(0, 0, 0, 0.4);
 }
 /****************************
  **** CAROUSEL TPYOGRAPHY ****
- ***************************
+ *****************************
  .g-owlcarousel-item-title {
  font-family: get-font-family($font-family-default);
  font-size: 5rem;

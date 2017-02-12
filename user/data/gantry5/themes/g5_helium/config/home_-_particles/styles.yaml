@@ -1,9 +1,1 @@
-preset: preset2
-accent:
-  color-1: '#9585CB'
-  color-2: '#6b833c'
-testimonials:
-  background: '#b34b4b'
-offcanvas:
-  background: '#b34b4b'
-  toggle-color: '#b34b4b'
+{  }

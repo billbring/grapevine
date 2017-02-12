@@ -108,22 +108,6 @@ content:
           linktext: ''
           buttonclass: ''
           name: 'Item 2'
-        -
-          image: 'gantry-media://header/DSCF6816-Edit 1c.jpg'
-          title: 'IT Support Made Easy'
-          desc: 'Call 0115 928 0908'
-          link: ''
-          linktext: ''
-          buttonclass: ''
-          name: 'Item 2'
-        -
-          image: 'gantry-media://header/DSCF6816-Edit 1g.jpg'
-          title: 'IT Support Made Easy'
-          desc: 'Call 0115 928 0908'
-          link: ''
-          linktext: ''
-          buttonclass: ''
-          name: 'Item 2'
   custom-5807:
     title: Intro
     attributes:
@@ -136,7 +120,7 @@ content:
   custom-3119:
     title: Features
     attributes:
-      html: "<div class=\"fp-features\">\n    <div class=\"g-grid\">\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-joomla\"></i>\n                    <h4 class=\"card-title\">Installation</h4>\n                    <p class=\"card-text\">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-wordpress\"></i>\n                    <h4 class=\"card-title\">Maintenance</h4>\n                    <p class=\"card-text\">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-grav\"></i>\n                    <h4 class=\"card-title\">Support</h4>\n                    <p class=\"card-text\">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+      html: "<div class=\"fp-features\">\n    <div class=\"g-grid\">\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-wrench\"></i>\n                    <h4 class=\"card-title\">Installation</h4>\n                    <p class=\"card-text\">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-cogs\"></i>\n                    <h4 class=\"card-title\">Maintenance</h4>\n                    <p class=\"card-text\">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-life-ring\"></i>\n                    <h4 class=\"card-title\">Support</h4>\n                    <p class=\"card-text\">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
     block:
       variations: center
   contenttabs-3854:
@@ -161,20 +145,10 @@ content:
         -
           image: 'gantry-media://above/img01.jpeg'
           imageposition: left
-          label: Featured
-          title: 'Gantry 5 Won "Best Framework System" at J and Beyond 2016 '
-          tags:
-            -
-              icon: 'fa fa-tag'
-              link: '#'
-              target: _self
-              text: 'Design Studio'
-            -
-              icon: 'fa fa-tag'
-              link: '#'
-              target: _self
-              text: Photo
-          link: 'http://gantry.org/blog/gantry5-wins-joscar'
+          label: ''
+          title: 'Ipad Screen Repairs'
+          tags: {  }
+          link: domestic
           linktext: '&rarr;'
           buttonclass: ''
           buttontarget: _self
@@ -182,12 +156,12 @@ content:
   custom-7658:
     title: 'Customer Testimonials'
     attributes:
-      html: "<div class=\"fp-testimonials\">\n    <blockquote>\n        <img src=\"gantry-media://testimonials/face.jpg\" alt=\"Avatar\" class=\"g-img-circle\" height=\"80\" width=\"80\">\n        <p class=\"h3\">\"Helium is a beautiful, free theme made by the RocketTheme team in appreciation of the incredible Gantry community.\"</p>\n        <footer>Andy Miller</footer>\n    </blockquote>\n</div>"
+      html: "<div class=\"fp-testimonials\">\n    <blockquote>\n        <img src=\"gantry-media://testimonials/face.jpg\" alt=\"Avatar\" class=\"g-img-circle\" height=\"80\" width=\"80\">\n        <p class=\"h3\">\"Grapevine did a great job fixing my server :)\"</p>\n        <footer>Andy Miller</footer>\n    </blockquote>\n</div>"
     block:
       variations: center
   custom-6355:
-    title: 'Develop CMS themes quickly'
+    title: Text
     attributes:
-      html: "<div class=\"fp-multi-column-text\">\n    <h2 class=\"g-title\">Develop CMS themes quickly and efficiently</h2>\n    <div class=\"g-grid\">\n        <div class=\"g-block size-50\">\n            <p>\n                Helium was crafted with love by the <a href=\"http://rockettheme.com\">RocketTheme</a> team to showcase the capabilities of the Gantry 5 framework. Helium is open source and available for free under a dual license system (<a href=\"http://www.opensource.org/licenses/mit-license.php\">MIT</a> or <a href=\"http://www.gnu.org/licenses/old-licenses/gpl-2.0.html\">GPL version 2 or later</a>). You do not have to keep the Gantry or RocketTheme links and logos in the front end, however, you must ensure that all copyright notices in the code are retained.\n            </p>\n        </div>\n        <div class=\"g-block size-50\">\n            <p>\n                Documentation for Gantry 5 is available on the <a href=\"http://docs.gantry.org\">official Gantry website</a>. You can submit any issues or feature requests for Gantry through <a href=\"http://github.com/gantry/gantry5\">GitHub</a>. A chat room has been set up using <a href=\"https://gitter.im/gantry/gantry5\">Gitter</a> where you can go to talk about the project with developers, contributors, and other members of the community. This is the best place to go to get quick tips and discuss features with others.\n            </p>\n        </div>\n    </div>\n</div>"
+      html: "<div class=\"fp-multi-column-text\">\n    <h2 class=\"g-title\">More Text</h2>\n    <div class=\"g-grid\">\n        <div class=\"g-block size-50\">\n            <p>\n                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. \n            </p>\n        </div>\n        <div class=\"g-block size-50\">\n            <p>\n                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.\n            </p>\n        </div>\n    </div>\n</div>"
     block:
       variations: title-center
