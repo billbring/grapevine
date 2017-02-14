@@ -12,48 +12,80 @@
 /* line 12, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 2, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_utilities.scss */
 /* line 9, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_utilities.scss */
-/* line 8, user/data/gantry5/themes/g5_helium/scss/custom.scss */
-.g-logo.g-logo-helium svg {
-  max-height: 98px;
+/* line 7, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+a[href^="tel:"], #g-header a {
+  color: inherit;
+  text-decoration: none;
 }
-/* line 10, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 9, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.g-logo.g-logo-helium svg {
+  max-height: 90px;
+}
+/* line 11, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .g-logo.g-logo-helium svg .gv {
   fill: white;
 }
-/* line 11, user/data/gantry5/themes/g5_helium/scss/custom.scss */
-.g-logo.g-logo-helium svg .nm, .g-logo.g-logo-helium svg .icon {
+/* line 12, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.g-logo.g-logo-helium svg .nm {
+  fill: white;
+}
+/* line 13, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.g-logo.g-logo-helium svg .icon {
   fill: #6b833c;
 }
-/* line 14, user/data/gantry5/themes/g5_helium/scss/custom.scss */
-.callout {
-  padding: 0;
-  background: transparent;
+/* line 16, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 17, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 18, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+@media only all and (min-width: 48rem) {
+  .g-home-particles.g-helium-style #g-navigation {
+    background: rgba(49, 47, 56, 0.5);
+  }
 }
-/* line 19, user/data/gantry5/themes/g5_helium/scss/custom.scss */
-.fp-intro p {
-  font-size: 1.4rem;
+/* line 24, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.menu .g-content {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  float: right;
 }
-/* line 23, user/data/gantry5/themes/g5_helium/scss/custom.scss */
-.zero-padding .g-content {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-/* line 28, user/data/gantry5/themes/g5_helium/scss/custom.scss */
-.btn-support {
+/* line 25, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.menu .btn-support {
   background: #0070b9;
   border-radius: 6px;
   padding: 5px 15px 4px 15px;
 }
-/* line 34, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 26, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.g-social-header .g-content {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 28, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.callout {
+  padding: 0;
+  background: transparent;
+}
+/* line 33, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.fp-intro p {
+  font-size: 1.4rem;
+}
+/* line 37, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.zero-padding .g-content {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+/* line 42, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .left-align .callout {
   text-align: left;
 }
-/* line 36, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 44, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 #g-intro#g-intro {
   padding-top: 0;
   padding-bottom: 2rem;
 }
-/* line 41, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 49, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .g-owlcarousel-item-title {
   text-shadow: 2px 3px 7px rgba(0, 0, 0, 0.4);
 }

@@ -2,9 +2,9 @@ settings:
   title: Mainmenu
 ordering:
   home: ''
-  domestic: ''
   schools: ''
   businesses: ''
+  'Home Users': ''
   features:
     particles: ''
     block-variations: ''
@@ -32,13 +32,16 @@ items:
   home:
     enabled: true
     anchor_class: ''
-  domestic:
-    enabled: true
-    anchor_class: ''
   schools:
     enabled: true
     anchor_class: ''
   businesses:
+    enabled: true
+    anchor_class: ''
+  'Home Users':
+    type: link
+    title: 'Home Users'
+    link: '/grapevine-v3/home users'
     enabled: true
     anchor_class: ''
   features:
@@ -128,6 +131,7 @@ items:
     dropdown_hide: '0'
     width: auto
     class: btn-support
+    anchor_class: ''
   styles/__particle-2IjaB:
     type: particle
     particle: custom

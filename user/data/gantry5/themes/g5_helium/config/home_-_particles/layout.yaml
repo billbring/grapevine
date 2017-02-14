@@ -101,17 +101,17 @@ content:
       imageOverlay: disable
       items:
         -
-          image: 'gantry-media://header/DSCF6816-Edit 1g.jpg'
+          image: 'gantry-media://header/v3.jpg'
           title: 'IT Support Made Easy'
-          desc: 'Call 0115 928 0908'
+          desc: 'Call <a href="tel:01159788180">0115 9788 180</a>'
           link: ''
           linktext: ''
           buttonclass: ''
-          name: 'Item 2'
+          name: 'Item 1'
   custom-5807:
     title: Intro
     attributes:
-      html: "<div class=\"fp-intro\">\n<p>We are a Nottingham based IT support company specialising in IT support for Education, Small Business and Home Users. We cover the east midlands and surrounding areas. With over 20 years experience we are passionate about IT and the ongoing support \\ development of IT systems</p>\n  <p>We take pride in our reputation and long standing relationships with our customers.<br>Call us today for a free no obligation quotation 0115 9280 908</p>\n</div>"
+      html: "<div class=\"fp-intro\">\n<p>We are a Nottingham based IT support company specialising in IT support for Education, Small Business and Home Users. We cover the east midlands and surrounding areas. With over 20 years experience we are passionate about IT and the ongoing support \\ development of IT systems</p>\n  <p>We take pride in our reputation and long standing relationships with our customers.<br>Call us today for a free no obligation quotation <a href=\"tel:01159788180\">0115 9788 180</a></p>\n</div>"
     block:
       variations: center
       extra:

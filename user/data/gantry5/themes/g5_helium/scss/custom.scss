@@ -4,12 +4,26 @@ $gv-light: #6b833c;
 $gv-dark: #356535;
 $blue-accent: #0070b9;
 
+a[href^="tel:"],#g-header a {color: inherit; text-decoration: none;}
 
 .g-logo.g-logo-helium svg {
-  max-height: 98px;
+  max-height: 90px;
   .gv{fill:white}
-  .nm, .icon{fill:$gv-light}
+  .nm{fill:white}
+  .icon{fill:$gv-light}
 }
+
+.g-home-particles {
+    &.g-helium-style {
+        #g-navigation {
+            @include breakpoint(no-mobile) {background: rgba($navigation-background, 0.5);}
+    }
+  }
+}
+
+.menu .g-content {padding-left: 0; padding-right: 0; margin-left: 0; margin-right: 0; float: right;}
+.menu .btn-support {background: $blue-accent; border-radius: 6px; padding:5px 15px 4px 15px;}
+.g-social-header .g-content {padding-left: 0; padding-right: 0; margin-left: 0; margin-right: 0;}
 
 .callout {
   padding: 0;
@@ -23,12 +37,6 @@ $blue-accent: #0070b9;
 .zero-padding .g-content {
   padding-top: 0;
   padding-bottom: 0;
-}
-
-.btn-support {
-  background: $blue-accent;
-  border-radius: 6px;
-  padding:5px 15px 4px 15px;
 }
 
 .left-align .callout{text-align: left;}

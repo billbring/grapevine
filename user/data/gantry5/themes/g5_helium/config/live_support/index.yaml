@@ -1,5 +1,5 @@
 name: live_support
-timestamp: 1486849593
+timestamp: 1487107615
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -22,8 +22,12 @@ sections:
   offcanvas: Offcanvas
 particles:
   spacer:
+    spacer-1764: Spacer
+    spacer-3168: Spacer
     spacer-9209: Spacer
     spacer-8407: Spacer
+  content:
+    system-content-9616: 'Page Content'
   custom:
     custom-2004: 'Custom HTML'
   position:
@@ -35,8 +39,6 @@ particles:
     menu-2261: Menu
   social:
     social-5629: Social
-  content:
-    system-content-9616: 'Page Content'
   horizontalmenu:
     horizontalmenu-6557: 'Horizontal Menu'
   copyright:
@@ -48,13 +50,12 @@ particles:
 inherit:
   default:
     navigation: navigation
-    mainbar: mainbar
+    system-content-9616: system-content-1587
     footer: footer
     offcanvas: offcanvas
     logo-9268: logo-9608
     menu-2261: menu-6409
     social-5629: social-3171
-    system-content-9616: system-content-1587
     logo-1243: logo-9571
     horizontalmenu-6557: horizontalmenu-9034
     copyright-1393: copyright-1736

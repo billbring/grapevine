@@ -7,8 +7,8 @@ layout:
   /navigation/:
     -
       - 'logo-9608 30'
-      - 'menu-6409 55'
-      - 'social-3171 15'
+      - 'menu-6409 60'
+      - 'social-3171 10'
   /header/: {  }
   /intro/: {  }
   /features/: {  }
@@ -88,6 +88,9 @@ structure:
 content:
   logo-9608:
     title: 'Logo / Image'
+  menu-6409:
+    block:
+      class: menu
   social-3171:
     block:
       class: g-social-header
