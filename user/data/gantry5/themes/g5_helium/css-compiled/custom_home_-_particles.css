@@ -16,32 +16,37 @@
 a[href^="tel:"], #g-header a {
   color: inherit;
   text-decoration: none;
+  font-weight: 600;
 }
 /* line 15, user/data/gantry5/themes/g5_helium/scss/custom.scss */
-.g-logo.g-logo-helium svg {
+svg#grapevine {
   max-height: 90px;
 }
 /* line 17, user/data/gantry5/themes/g5_helium/scss/custom.scss */
-.g-logo.g-logo-helium svg .gv {
+svg#grapevine .gv {
   fill: white;
 }
 /* line 18, user/data/gantry5/themes/g5_helium/scss/custom.scss */
-.g-logo.g-logo-helium svg .nm {
+svg#grapevine .nm {
   fill: white;
 }
 /* line 19, user/data/gantry5/themes/g5_helium/scss/custom.scss */
-.g-logo.g-logo-helium svg .icon {
+svg#grapevine .icon {
   fill: #6b833c;
 }
-/* line 24, user/data/gantry5/themes/g5_helium/scss/custom.scss */
-/* line 25, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 22, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+svg#affiliates {
+  fill: rgba(255, 255, 255, 0.8);
+}
 /* line 26, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 27, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 28, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 @media only all and (min-width: 48rem) {
   .g-home-particles.g-helium-style #g-navigation {
     background: rgba(49, 47, 56, 0.5);
   }
 }
-/* line 32, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 34, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .menu .g-content {
   padding-left: 0;
   padding-right: 0;
@@ -49,105 +54,121 @@ a[href^="tel:"], #g-header a {
   margin-right: 0;
   float: right;
 }
-/* line 33, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 35, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .menu .btn-support {
   background: #0070b9;
   border-radius: 6px;
   padding: 5px 15px 4px 15px;
 }
-/* line 34, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 36, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .g-social-header .g-content {
   padding-left: 0;
   padding-right: 0;
   margin-left: 0;
   margin-right: 0;
 }
-/* line 38, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 40, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .callout {
   padding: 0;
   background: transparent;
 }
-/* line 39, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 42, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .left-align .callout {
   text-align: left;
 }
-/* line 43, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 46, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 #g-intro#g-intro {
   padding-top: 0;
   padding-bottom: 2rem;
 }
-/* line 44, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 47, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .fp-intro p {
   font-size: 1.4rem;
 }
-/* line 47, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 50, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .zero-padding .g-content {
   padding-top: 0;
   padding-bottom: 0;
 }
-/* line 49, user/data/gantry5/themes/g5_helium/scss/custom.scss */
-.g-owlcarousel-item-title {
-  text-shadow: 2px 3px 7px rgba(0, 0, 0, 0.4);
-}
 /****************************
  **** CAROUSEL TPYOGRAPHY ****
- *****************************
- .g-owlcarousel-item-title {
- font-family: get-font-family($font-family-default);
- font-size: 5rem;
- line-height: 4rem;
- font-weight: $font-weight-medium;
- margin: ($content-margin * 2) ($content-margin * 2) $content-margin;
- text-shadow: 2px 3px 7px rgba(0, 0, 0, 0.8);
- letter-spacing: 0.2rem;
- @include breakpoint(desktop-range) {
- font-size: 4rem;
- line-height: 3.5rem;
- }
- @include breakpoint(tablet-range) {
- font-size: 4rem;
- line-height: 3.5rem;
- margin-top: ($content-margin * 5);
- }
- @include breakpoint(large-mobile-range) {
- margin-top: 0;
- font-size: 4rem;
- line-height: 3.5rem;
- }
- @include breakpoint(small-mobile-range) {
- margin-top: 0;
- font-size: 3.5rem;
- line-height: 3rem;
- }
- }
- .g-owlcarousel-item-desc {
- font-size: 1.5rem;
- line-height: $core-line-height - 0.5;
- font-weight: $font-weight-light;
- padding-bottom: $content-padding * 1.5;
- margin-top: 0;
- margin-bottom: $content-margin;
- text-shadow: 2px 3px 7px rgba(0, 0, 0, 0.8);
- @include breakpoint(desktop-range) {
- font-size: 1rem;
- line-height: 1.875rem;
- }
- @include breakpoint(tablet-range) {
- font-size: 1rem;
- line-height: 1.875rem;
- padding-bottom: 0;
- }
- @include breakpoint(mobile-only) {
- display: none;
- }
- }
- .g-owlcarousel-item-button {
- @include breakpoint(tablet-range) {
- padding: 1rem 2.625rem;
- font-size: $core-font-size - 0.4;
- }
- @include breakpoint(mobile-only) {
- display: none;
- }
- }
- */
+ ****************************/
+/* line 58, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.g-owlcarousel-item-title {
+  font-family: "Open Sans";
+  font-size: 4rem;
+  line-height: 4rem;
+  font-weight: 500;
+  margin: 1.25rem 1.25rem 0.625rem;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+}
+@media only all and (min-width: 60rem) and (max-width: 74.938rem) {
+  .g-owlcarousel-item-title {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+}
+@media only all and (min-width: 48rem) and (max-width: 59.938rem) {
+  .g-owlcarousel-item-title {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-top: 3.125rem;
+  }
+}
+@media only all and (min-width: 30.062rem) and (max-width: 47.938rem) {
+  .g-owlcarousel-item-title {
+    margin-top: 0;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+  }
+}
+@media only all and (max-width: 30rem) {
+  .g-owlcarousel-item-title {
+    margin-top: 0;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+/* line 90, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.g-owlcarousel-item-desc {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 200;
+  padding-bottom: 1.407rem;
+  margin-top: 0;
+  margin-bottom: 0.625rem;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+}
+@media only all and (min-width: 60rem) and (max-width: 74.938rem) {
+  .g-owlcarousel-item-desc {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+  }
+}
+@media only all and (min-width: 48rem) and (max-width: 59.938rem) {
+  .g-owlcarousel-item-desc {
+    font-size: 2rem;
+    line-height: 2rem;
+    padding-bottom: 0;
+  }
+}
+@media only all and (max-width: 47.938rem) {
+  .g-owlcarousel-item-desc {
+    font-size: 1.1rem;
+    line-height: 1.875rem;
+    padding-bottom: 0;
+    display: block;
+  }
+}
+/* line 118, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+@media only all and (min-width: 48rem) and (max-width: 59.938rem) {
+  .g-owlcarousel-item-button {
+    padding: 1rem 2.625rem;
+    font-size: 0.6rem;
+  }
+}
+@media only all and (max-width: 47.938rem) {
+  .g-owlcarousel-item-button {
+    display: none;
+  }
+}

@@ -1,5 +1,5 @@
 name: home_-_particles
-timestamp: 1487192187
+timestamp: 1487197580
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -32,11 +32,13 @@ particles:
   custom:
     custom-5807: Intro
     custom-3119: Features
-    custom-4501: 'Custom HTML'
+    custom-3334: 'Custom HTML'
+    custom-4501: 'Affiliate Logos'
     custom-7658: 'Customer Testimonials'
     custom-6355: Text
-  contenttabs:
-    contenttabs-3854: 'Content Tabs'
+  spacer:
+    spacer-8852: Spacer
+    spacer-3366: Spacer
   contentcubes:
     contentcubes-7850: 'Content Cubes'
   horizontalmenu:
