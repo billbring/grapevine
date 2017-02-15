@@ -91,6 +91,7 @@ content:
   menu-6409:
     block:
       class: menu
+      variations: align-right
   social-3171:
     block:
       class: g-social-header
