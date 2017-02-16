@@ -8,7 +8,7 @@ $blue-accent: #0070b9;
 
 
 //Telephone Link
-a[href^="tel:"],#g-header a {color: inherit; text-decoration: none; font-weight: 600;}
+a[href^="tel:"],#g-header a {color: inherit; text-decoration: none; font-weight: 300;}
 
 
 //SVG Logo Colours
@@ -29,6 +29,7 @@ svg#affiliates {fill:rgba(white, 0.8)}
             @include breakpoint(no-mobile) {background: rgba($navigation-background, 0.5);}
 }  }  }
 
+.button {margin-top:1rem}
 
 //Menu alignment and Live Support button styling
 .menu .g-content {padding-left: 0; padding-right: 0; margin-left: 0; margin-right: 0;}
@@ -41,25 +42,50 @@ svg#affiliates {fill:rgba(white, 0.8)}
 
 .left-align .callout{text-align: left;}
 
+.zero-padding .g-content {padding-top: 0; padding-bottom: 0;}
+
+/*******************
+**** TYPOGRAPHY ****
+*******************/
+body {
+    font-family: get-font-family($font-family-default);
+    font-weight: 300;
+}
+
+// Headings
+h1, h2, h3, h4, h5 {
+    font-family: get-font-family($font-family-default);
+    font-weight: $font-weight-regular;
+}
+
+h1 {
+    font-weight: $font-weight-bold;
+}
+
+h4 {
+    font-size: $h4-font-size;
+}
+
+.g-home-particles.g-helium-style .fp-features .g-block .card .card-block .card-title {font-weight: 400;}
 
 //Intro paragraph overrides
 #g-intro#g-intro {padding-top:0; padding-bottom:2rem;}
-.fp-intro p {font-size: 1.4rem;}
+.fp-intro p {font-size: 1.4rem;
+  @include breakpoint(large-mobile-range) {font-size: 1.2rem;}
+  @include breakpoint(small-mobile-range) {font-size: 1rem;}
+}
 
 
-.zero-padding .g-content {padding-top: 0; padding-bottom: 0;}
+/*****************
+**** CAROUSEL ****
+*****************/
+.owl-stage-outer {max-height: 90vh}
 
-//.g-owlcarousel-item-title {text-shadow: 2px 3px 7px rgba(0, 0, 0, 0.4);}
-
-
-/****************************
-**** CAROUSEL TPYOGRAPHY ****
-****************************/
 .g-owlcarousel-item-title {
     font-family: get-font-family($font-family-default);
     font-size: 4rem;
     line-height: 4rem;
-    font-weight: $font-weight-medium;
+    font-weight: 100;
     margin: ($content-margin * 2) ($content-margin * 2) $content-margin;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
 
@@ -90,7 +116,7 @@ svg#affiliates {fill:rgba(white, 0.8)}
 .g-owlcarousel-item-desc {
     font-size: 2.5rem;
     line-height: $core-line-height - 0.5;
-    font-weight: $font-weight-light;
+    font-weight: 100 !important;
     padding-bottom: $content-padding * 1.5;
     margin-top: 0;
     margin-bottom: $content-margin;

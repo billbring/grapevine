@@ -1,45 +1,47 @@
 ---
 title: Contact
-routable: true
-cache_enable: true
-visible: true
 form:
+    name: Contact Form
     fields:
-        name:
-            type: text
+        -
+            name: name
             label: Name
+            placeholder: 'Enter your name'
+            autofocus: 'on'
+            autocomplete: 'on'
+            type: text
             validate:
                 required: true
-                message: 'Please enter your name!'
-        email:
-            type: text
+        -
+            name: email
             label: Email
-            validate:
-                type: email
-                required: true
-                message: 'Please enter your email address!'
-        subject:
-            type: text
-            label: Subject
+            placeholder: 'Enter your email address'
+            type: email
             validate:
                 required: true
-                message: 'Please enter a subject for your message!'
-        message:
-            type: textarea
+        -
+            name: message
             label: Message
+            placeholder: 'Enter your message'
+            type: textarea
             validate:
                 required: true
-                min: 10
-                message: 'Email message needs to be more than 10 characters long!'
     buttons:
-        submit:
+        -
             type: submit
-            value: 'Send Email'
+            value: Send
+
     process:
-        message: 'Thank you from contacting us!'
-        display: /form/thankyou
+        -
+            save:
+                fileprefix: 'contact - '
+                dateformat: Y.m.d-H.i.s-u
+                extension: txt
+                body: '{% include ''forms/data.txt.twig'' %}'
+        -
+            message: 'Thank you for getting in touch!'
+        -
+            display: /form/thankyou
 ---
 
-# Contact Form
-
-  * Required field
+# Contact

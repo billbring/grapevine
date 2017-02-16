@@ -6,7 +6,7 @@ accent:
   color-1: '#b7cf88'
   color-2: '#8f4dae'
 font:
-  family-default: 'family=Open+Sans:400'
+  family-default: 'family=Roboto:100,300,700,400'
   family-title: 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
 navigation:
   background: '#312f38'

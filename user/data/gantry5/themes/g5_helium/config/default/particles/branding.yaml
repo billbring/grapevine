@@ -1,4 +1,4 @@
-enabled: '0'
-content: 'Powered by <a href="http://www.gantry.org/" title="Gantry Framework" class="g-powered-by">Gantry<span class="hidden-tablet"> Framework</span></a>'
+enabled: '1'
+content: "<p>Call 0115 9788 180</p>\n<p>Email sales@gvnm.co.uk</p>\n\n<p>Registered Office: T16 Lenton Business Centre, Lenton Boulevard, Nottingham, NG7 2BY</p>\n<p>Company No. 6402228, VAT No. 946 8697 50</p>"
 css:
   class: g-branding

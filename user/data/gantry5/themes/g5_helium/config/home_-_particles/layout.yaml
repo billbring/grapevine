@@ -103,8 +103,15 @@ content:
   owlcarousel-2455:
     title: 'Owl Carousel'
     attributes:
-      imageOverlay: disable
       items:
+        -
+          image: 'gantry-media://header/v3.jpg'
+          title: 'IT Support Made Easy'
+          desc: 'Call <a href="tel:01159788180">0115 9788 180</a>'
+          link: ''
+          linktext: ''
+          buttonclass: ''
+          name: 'Item 1'
         -
           image: 'gantry-media://header/v3.jpg'
           title: 'IT Support Made Easy'

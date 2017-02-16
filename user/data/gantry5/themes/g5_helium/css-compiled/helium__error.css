@@ -8,7 +8,7 @@
    http://docs.gantry.org/gantry5/tutorials/adding-a-custom-style-sheet
  */
 
-@import url('//fonts.googleapis.com/css?family=Open+Sans:400');
+@import url('//fonts.googleapis.com/css?family=Roboto:100,300,700,400');
 /* line 2, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 12, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_nav.scss */
 /* line 2, user/plugins/gantry5/engines/nucleus/scss/nucleus/mixins/_utilities.scss */
@@ -203,12 +203,12 @@ a:hover {
 }
 /* line 5, user/themes/g5_helium/scss/helium/styles/_typography.scss */
 body {
-  font-family: "Open Sans";
+  font-family: "Roboto";
   font-weight: 400;
 }
 /* line 11, user/themes/g5_helium/scss/helium/styles/_typography.scss */
 h1, h2, h3, h4, h5 {
-  font-family: "Open Sans";
+  font-family: "Roboto";
   font-weight: 400;
 }
 /* line 16, user/themes/g5_helium/scss/helium/styles/_typography.scss */
@@ -3270,7 +3270,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 472, user/themes/g5_helium/scss/helium/particles/_owlcarousel.scss */
 .g-owlcarousel-item-title {
-  font-family: "Open Sans";
+  font-family: "Roboto";
   font-size: 3.5rem;
   line-height: 4rem;
   font-weight: 500;

@@ -1,9 +1,9 @@
 enabled: '1'
 class: ''
 title: ''
-nav: disable
-dots: enable
-autoplay: disable
+nav: enable
+dots: disable
+autoplay: enable
 autoplaySpeed: ''
-imageOverlay: enable
+imageOverlay: disable
 items: {  }

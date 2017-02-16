@@ -16,88 +16,132 @@
 a[href^="tel:"], #g-header a {
   color: inherit;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 300;
 }
 /* line 15, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 svg#grapevine {
   max-height: 90px;
+  preserveAspectRatio: xMaxYMin;
 }
-/* line 17, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 18, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 svg#grapevine .gv {
   fill: white;
 }
-/* line 18, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 19, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 svg#grapevine .nm {
   fill: white;
 }
-/* line 19, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 20, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 svg#grapevine .icon {
   fill: #6b833c;
 }
-/* line 22, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 23, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 svg#affiliates {
   fill: rgba(255, 255, 255, 0.8);
 }
-/* line 26, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 /* line 27, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 /* line 28, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 29, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 @media only all and (min-width: 48rem) {
   .g-home-particles.g-helium-style #g-navigation {
     background: rgba(49, 47, 56, 0.5);
   }
 }
-/* line 34, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 33, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.button {
+  margin-top: 1rem;
+}
+/* line 36, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .menu .g-content {
   padding-left: 0;
   padding-right: 0;
   margin-left: 0;
   margin-right: 0;
 }
-/* line 35, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 37, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .menu .btn-support {
   background: #0070b9;
   border-radius: 6px;
   padding: 5px 15px 4px 15px;
 }
-/* line 36, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 38, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .g-social-header .g-content {
   padding-left: 0;
   padding-right: 0;
   margin-left: 0;
   margin-right: 0;
 }
-/* line 40, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 42, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .callout {
   padding: 0;
   background: transparent;
 }
-/* line 42, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 44, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .left-align .callout {
   text-align: left;
 }
 /* line 46, user/data/gantry5/themes/g5_helium/scss/custom.scss */
-#g-intro#g-intro {
-  padding-top: 0;
-  padding-bottom: 2rem;
-}
-/* line 47, user/data/gantry5/themes/g5_helium/scss/custom.scss */
-.fp-intro p {
-  font-size: 1.4rem;
-}
-/* line 50, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .zero-padding .g-content {
   padding-top: 0;
   padding-bottom: 0;
 }
-/****************************
- **** CAROUSEL TPYOGRAPHY ****
- ****************************/
-/* line 58, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/*******************
+ **** TYPOGRAPHY ****
+ *******************/
+/* line 51, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+body {
+  font-family: "Roboto";
+  font-weight: 300;
+}
+/* line 57, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+h1, h2, h3, h4, h5 {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+/* line 62, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+h1 {
+  font-weight: 700;
+}
+/* line 66, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+h4 {
+  font-size: 1.25rem;
+}
+/* line 70, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.g-home-particles.g-helium-style .fp-features .g-block .card .card-block .card-title {
+  font-weight: 400;
+}
+/* line 73, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+#g-intro#g-intro {
+  padding-top: 0;
+  padding-bottom: 2rem;
+}
+/* line 74, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.fp-intro p {
+  font-size: 1.4rem;
+}
+@media only all and (min-width: 30.062rem) and (max-width: 47.938rem) {
+  .fp-intro p {
+    font-size: 1.2rem;
+  }
+}
+@media only all and (max-width: 30rem) {
+  .fp-intro p {
+    font-size: 1rem;
+  }
+}
+/*****************
+ **** CAROUSEL ****
+ *****************/
+/* line 83, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.owl-stage-outer {
+  max-height: 90vh;
+}
+/* line 85, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .g-owlcarousel-item-title {
-  font-family: "Open Sans";
+  font-family: "Roboto";
   font-size: 4rem;
   line-height: 4rem;
-  font-weight: 500;
+  font-weight: 100;
   margin: 1.25rem 1.25rem 0.625rem;
   text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
 }
@@ -128,11 +172,11 @@ svg#affiliates {
     line-height: 1.5rem;
   }
 }
-/* line 90, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 117, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 .g-owlcarousel-item-desc {
   font-size: 2.5rem;
   line-height: 1.5;
-  font-weight: 200;
+  font-weight: 100 !important;
   padding-bottom: 1.407rem;
   margin-top: 0;
   margin-bottom: 0.625rem;
@@ -159,7 +203,7 @@ svg#affiliates {
     display: block;
   }
 }
-/* line 118, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 145, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 @media only all and (min-width: 48rem) and (max-width: 59.938rem) {
   .g-owlcarousel-item-button {
     padding: 1rem 2.625rem;

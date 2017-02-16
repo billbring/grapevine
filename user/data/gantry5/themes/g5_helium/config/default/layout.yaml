@@ -28,8 +28,8 @@ layout:
             - position-position-3949
   /footer/:
     -
-      - 'logo-9571 31.5'
-      - 'horizontalmenu-9034 68.5'
+      - 'logo-9571 30'
+      - 'horizontalmenu-9034 70'
     -
       - 'copyright-1736 50'
       - 'totop-8670 50'
@@ -88,6 +88,8 @@ structure:
 content:
   logo-9608:
     title: 'Logo / Image'
+    block:
+      variations: align-left
   menu-6409:
     block:
       class: menu
@@ -101,29 +103,12 @@ content:
       key: sidebar
   logo-9571:
     title: 'Logo / Image'
-    attributes:
-      enabled: 0
   horizontalmenu-9034:
     title: 'Horizontal Menu'
     attributes:
       enabled: 0
-      items:
-        -
-          text: Gantry
-          link: 'http://gantry.org'
-          name: Gantry
-        -
-          text: Documentation
-          link: 'http://docs.gantry.org'
-          name: Documentation
-        -
-          text: Download
-          link: 'http://gantry.org/downloads'
-          name: Download
+      items: {  }
   copyright-1736:
-    attributes:
-      css:
-        class: ''
     block:
       class: zero-padding
   totop-8670:
