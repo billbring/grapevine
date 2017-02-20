@@ -1,5 +1,5 @@
 name: rows_columns
-timestamp: 1487284482
+timestamp: 1487584175
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -53,12 +53,12 @@ particles:
     menu-3115: Menu
   social:
     social-4342: Social
-  horizontalmenu:
-    horizontalmenu-6421: 'Horizontal Menu'
   copyright:
     copyright-3663: Copyright
   totop:
     totop-1730: 'To Top'
+  horizontalmenu:
+    horizontalmenu-9439: 'Horizontal Menu'
   mobile-menu:
     mobile-menu-3214: Mobile-menu
 inherit:
@@ -70,7 +70,7 @@ inherit:
     menu-3115: menu-6409
     social-4342: social-3171
     logo-4952: logo-9571
-    horizontalmenu-6421: horizontalmenu-9034
     copyright-3663: copyright-1736
     totop-1730: totop-8670
+    horizontalmenu-9439: horizontalmenu-1158
     mobile-menu-3214: mobile-menu-5697

@@ -6,8 +6,8 @@ preset:
 layout:
   /navigation/:
     -
-      - 'logo-9608 30'
-      - 'menu-6409 60'
+      - 'logo-9608 23'
+      - 'menu-6409 67'
       - 'social-3171 10'
   /header/: {  }
   /intro/: {  }
@@ -28,11 +28,13 @@ layout:
             - position-position-3949
   /footer/:
     -
-      - 'logo-9571 30'
-      - 'horizontalmenu-9034 70'
+      - 'logo-9571 21'
+      - 'spacer-spacer-2500 79'
     -
-      - 'copyright-1736 50'
-      - 'totop-8670 50'
+      - 'copyright-1736 75'
+      - 'totop-8670 25'
+    -
+      - horizontalmenu-1158
   /offcanvas/:
     -
       - mobile-menu-5697
@@ -89,7 +91,7 @@ content:
   logo-9608:
     title: 'Logo / Image'
     block:
-      variations: align-left
+      variations: align-right
   menu-6409:
     block:
       class: menu
@@ -103,11 +105,6 @@ content:
       key: sidebar
   logo-9571:
     title: 'Logo / Image'
-  horizontalmenu-9034:
-    title: 'Horizontal Menu'
-    attributes:
-      enabled: 0
-      items: {  }
   copyright-1736:
     block:
       class: zero-padding
@@ -115,3 +112,17 @@ content:
     title: 'To Top'
     block:
       class: zero-padding
+  horizontalmenu-1158:
+    title: 'Horizontal Menu'
+    attributes:
+      enabled: 0
+      class: ''
+      items:
+        -
+          text: info@gvnm.co.uk
+          link: 'mailto:info@gvnm.co.uk'
+          name: email
+        -
+          text: '0115 9788 180'
+          link: 'tel:01159788180'
+          name: phone

@@ -4,14 +4,8 @@ preset:
   name: _error
   timestamp: 1475608598
 layout:
-  /navigation/:
-    -
-      - 'logo-9608 15'
-      - 'menu-6409 65'
-      - 'social-3171 20'
-  /header/:
-    -
-      - custom-8642
+  navigation: {  }
+  /header/: {  }
   /intro/: {  }
   /features/: {  }
   /utility/: {  }
@@ -26,20 +20,16 @@ layout:
             - system-content-1587
       -
         'sidebar 25': {  }
-  /footer/:
-    -
-      - 'logo-9571 10'
-      - 'copyright-1736 30'
-      - 'horizontalmenu-9034 45'
-      - 'totop-8670 15'
-  /offcanvas/:
-    -
-      - mobile-menu-5697
+  footer: {  }
+  offcanvas: {  }
 structure:
   navigation:
     type: section
-    attributes:
-      boxed: ''
+    inherit:
+      outline: default
+      include:
+        - children
+        - attributes
   header:
     attributes:
       boxed: ''
@@ -83,40 +73,14 @@ structure:
     attributes:
       boxed: ''
   footer:
-    attributes:
-      boxed: ''
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
   offcanvas:
-    attributes:
-      boxed: ''
-content:
-  logo-9608:
-    title: 'Logo / Image'
-  social-3171:
-    block:
-      class: g-social-header
-  custom-8642:
-    title: 'Custom HTML'
-    attributes:
-      html: "<h2 class=\"g-title\">We are sorry!</h2>\n<p>Gantry 5 provides a custom error page for you to configure with either positions, particles or a combination of both, as well as styling.</p>"
-  logo-9571:
-    title: 'Logo / Image'
-    attributes:
-      image: 'gantry-media://logo/logo-footer.svg'
-  horizontalmenu-9034:
-    title: 'Horizontal Menu'
-    attributes:
-      items:
-        -
-          text: Gantry
-          link: 'http://gantry.org'
-          name: Gantry
-        -
-          text: Documentation
-          link: 'http://docs.gantry.org'
-          name: Documentation
-        -
-          text: Download
-          link: 'http://gantry.org/downloads'
-          name: Download
-  totop-8670:
-    title: 'To Top'
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children

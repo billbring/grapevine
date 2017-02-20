@@ -1,0 +1,91 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1468340932
+layout:
+  navigation: {  }
+  header: {  }
+  /intro/: {  }
+  /features/: {  }
+  /utility/: {  }
+  /above/: {  }
+  /testimonials/: {  }
+  /expanded/: {  }
+  /container-main/:
+    -
+      -
+        'mainbar 70':
+          -
+            - system-content-3977
+      -
+        'sidebar 30':
+          -
+            - custom-6361
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  header:
+    inherit:
+      outline: gv-business
+      include:
+        - attributes
+        - children
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+  features:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  mainbar:
+    type: section
+    subtype: main
+  sidebar:
+    type: section
+    subtype: aside
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - children
+        - attributes
+content:
+  custom-6361:
+    title: 'Right Sidebar'
+    attributes:
+      html: "<address>\n<p>Grapevine Network Management Ltd<br>\nT16 Lenton Business Centre<br>\nLenton Boulevard<br>\nNottingham<br>\nNG7 2BY</p>\n\n<p>Tel: <a href=\"Tel:01159788180\">0115 9788 180</a><br>\nEmail: <a href=\"mailto:info@gvnm.co.uk\">info@gvnm.co.uk</a></p>\n<p>Company No: 6402228<br>\nVAT No: 946869750</p>\n</address>"

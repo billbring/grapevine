@@ -1,5 +1,5 @@
 name: particles
-timestamp: 1487284482
+timestamp: 1487584175
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -34,12 +34,12 @@ particles:
     menu-1561: Menu
   social:
     social-6869: Social
-  horizontalmenu:
-    horizontalmenu-5653: 'Horizontal Menu'
   copyright:
     copyright-9056: Copyright
   totop:
     totop-5818: 'To Top'
+  horizontalmenu:
+    horizontalmenu-7468: 'Horizontal Menu'
   mobile-menu:
     mobile-menu-8745: Mobile-menu
 inherit:
@@ -62,7 +62,7 @@ inherit:
     social-6869: social-3171
     position-position-1026: position-position-3949
     logo-5620: logo-9571
-    horizontalmenu-5653: horizontalmenu-9034
     copyright-9056: copyright-1736
     totop-5818: totop-8670
+    horizontalmenu-7468: horizontalmenu-1158
     mobile-menu-8745: mobile-menu-5697

@@ -1,5 +1,5 @@
 name: left_sidebar
-timestamp: 1487284482
+timestamp: 1487584175
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -32,12 +32,12 @@ particles:
     menu-2007: Menu
   social:
     social-6590: Social
-  horizontalmenu:
-    horizontalmenu-8037: 'Horizontal Menu'
   copyright:
     copyright-6513: Copyright
   totop:
     totop-8854: 'To Top'
+  horizontalmenu:
+    horizontalmenu-9662: 'Horizontal Menu'
   mobile-menu:
     mobile-menu-6548: Mobile-menu
 inherit:
@@ -49,7 +49,7 @@ inherit:
     menu-2007: menu-6409
     social-6590: social-3171
     logo-3774: logo-9571
-    horizontalmenu-8037: horizontalmenu-9034
     copyright-6513: copyright-1736
     totop-8854: totop-8670
+    horizontalmenu-9662: horizontalmenu-1158
     mobile-menu-6548: mobile-menu-5697

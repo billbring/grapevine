@@ -1,0 +1,61 @@
+name: gv-contact
+timestamp: 1487588628
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1468340932
+positions: {  }
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  header: Header
+  mainbar: Mainbar
+  sidebar: Sidebar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-6747: 'Logo / Image'
+    logo-9662: 'Logo / Image'
+  menu:
+    menu-7899: Menu
+  social:
+    social-8412: Social
+  custom:
+    custom-6485: Header
+    custom-6361: 'Right Sidebar'
+  content:
+    system-content-3977: 'Page Content'
+  spacer:
+    spacer-5395: Spacer
+  copyright:
+    copyright-1086: Copyright
+  totop:
+    totop-4399: 'To Top'
+  horizontalmenu:
+    horizontalmenu-7854: 'Horizontal Menu'
+  mobile-menu:
+    mobile-menu-2525: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    logo-6747: logo-9608
+    menu-7899: menu-6409
+    social-8412: social-3171
+    footer: footer
+    logo-9662: logo-9571
+    spacer-5395: spacer-2500
+    copyright-1086: copyright-1736
+    totop-4399: totop-8670
+    horizontalmenu-7854: horizontalmenu-1158
+    offcanvas: offcanvas
+    mobile-menu-2525: mobile-menu-5697
+  gv-business:
+    header: header
+    custom-6485: custom-6833

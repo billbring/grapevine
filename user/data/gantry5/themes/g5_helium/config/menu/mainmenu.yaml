@@ -2,9 +2,11 @@ settings:
   title: Mainmenu
 ordering:
   home: ''
-  schools: ''
-  businesses: ''
-  'Home Users': ''
+  education: ''
+  business: ''
+  Home-Users: ''
+  contact: ''
+  live-support: ''
   features:
     particles: ''
     block-variations: ''
@@ -26,23 +28,31 @@ ordering:
     rows-columns: ''
   styles:
     __particle-2IjaB: ''
-  form: ''
-  live-support: ''
 items:
   home:
     enabled: true
     anchor_class: ''
-  schools:
+  education:
     enabled: true
     anchor_class: ''
-  businesses:
+  business:
     enabled: true
     anchor_class: ''
-  'Home Users':
+  Home-Users:
     type: link
     title: 'Home Users'
-    link: '/grapevine-v3/home users'
+    link: /grapevine-v3/home-users
     enabled: true
+    anchor_class: ''
+  contact:
+    enabled: true
+    anchor_class: ''
+  live-support:
+    enabled: '1'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    class: btn-support
     anchor_class: ''
   features:
     enabled: '0'
@@ -116,21 +126,6 @@ items:
     dropdown_dir: center
     dropdown_hide: '0'
     width: 35rem
-    anchor_class: ''
-  form:
-    columns:
-      - 100
-    enabled: '1'
-    dropdown_dir: right
-    dropdown_hide: '0'
-    width: auto
-    anchor_class: ''
-  live-support:
-    enabled: '1'
-    dropdown_dir: right
-    dropdown_hide: '0'
-    width: auto
-    class: btn-support
     anchor_class: ''
   styles/__particle-2IjaB:
     type: particle
