@@ -4,7 +4,7 @@ ordering:
   home: ''
   education: ''
   business: ''
-  Home-Users: ''
+  home-users: ''
   contact: ''
   live-support: ''
   features:
@@ -38,10 +38,7 @@ items:
   business:
     enabled: true
     anchor_class: ''
-  Home-Users:
-    type: link
-    title: 'Home Users'
-    link: /grapevine-v3/home-users
+  home-users:
     enabled: true
     anchor_class: ''
   contact:

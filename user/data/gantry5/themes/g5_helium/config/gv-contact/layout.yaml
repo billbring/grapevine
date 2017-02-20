@@ -6,7 +6,9 @@ preset:
 layout:
   navigation: {  }
   header: {  }
-  /intro/: {  }
+  /intro/:
+    -
+      - custom-7130
   /features/: {  }
   /utility/: {  }
   /above/: {  }
@@ -17,7 +19,8 @@ layout:
       -
         'mainbar 70':
           -
-            - system-content-3977
+            - 'system-content-3977 90'
+            - 'spacer-4523 10'
       -
         'sidebar 30':
           -
@@ -42,6 +45,10 @@ structure:
     type: section
     attributes:
       boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'background:white; padding-bottom:0'
   features:
     type: section
     attributes:
@@ -66,9 +73,19 @@ structure:
   mainbar:
     type: section
     subtype: main
+    attributes:
+      class: ''
+      extra:
+        -
+          style: 'padding-top:0'
   sidebar:
     type: section
     subtype: aside
+    attributes:
+      class: ''
+      extra:
+        -
+          style: 'padding-top:0'
   container-main:
     attributes:
       boxed: ''
@@ -85,6 +102,14 @@ structure:
         - children
         - attributes
 content:
+  custom-7130:
+    title: 'Custom HTML'
+    attributes:
+      html: '<h1 style="margin-bottom:0">Contact</h1>'
+    block:
+      extra:
+        -
+          style: 'margin-bottom:0; padding-bottom:0'
   custom-6361:
     title: 'Right Sidebar'
     attributes:

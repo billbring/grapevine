@@ -50,12 +50,7 @@ svg#affiliates {fill:rgba(white, 0.8)}
 /*********************
 **** PAGE HEADERS ****
 *********************/
-//#g-header {min-height: 24rem}
-.outline-gv-education #g-header {min-height: 24rem}
-.outline-gv-business #g-header {min-height: 24rem}
-.outline-gv-home_user #g-header {min-height: 24rem}
-.outline-gv-contact #g-header {min-height: 24rem}
-.outline-gv-live_support #g-header {min-height: 24rem}
+#g-header {min-height: 24rem}
 
 
 
@@ -123,6 +118,14 @@ a {
 address{font-style: normal;
   a {font-weight: 400; color: inherit;}
 }
+
+
+/*****************
+**** FOOTER ****
+*****************/
+#g-totop {font-weight: 400;}
+.g-horizontalmenu, .g-horizontalmenu a[href^="tel:"]  {font-weight: 400; font-size: 1.6rem; padding-top: 0}
+
 
 
 /*****************

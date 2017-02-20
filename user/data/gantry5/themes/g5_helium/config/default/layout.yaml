@@ -29,12 +29,11 @@ layout:
   /footer/:
     -
       - 'logo-9571 21'
-      - 'spacer-spacer-2500 79'
+      - 'spacer-2500 46'
+      - 'totop-8670 33'
     -
-      - 'copyright-1736 75'
-      - 'totop-8670 25'
-    -
-      - horizontalmenu-1158
+      - 'copyright-1736 50'
+      - 'horizontalmenu-1158 50'
   /offcanvas/:
     -
       - mobile-menu-5697
@@ -105,9 +104,6 @@ content:
       key: sidebar
   logo-9571:
     title: 'Logo / Image'
-  copyright-1736:
-    block:
-      class: zero-padding
   totop-8670:
     title: 'To Top'
     block:
@@ -115,7 +111,6 @@ content:
   horizontalmenu-1158:
     title: 'Horizontal Menu'
     attributes:
-      enabled: 0
       class: ''
       items:
         -

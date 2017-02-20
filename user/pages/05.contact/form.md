@@ -43,4 +43,3 @@ form:
             display: /contact/thankyou
 ---
 
-# Contact

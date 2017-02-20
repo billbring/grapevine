@@ -1,5 +1,5 @@
 name: gv-home
-timestamp: 1487588025
+timestamp: 1487629004
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -42,10 +42,10 @@ particles:
     spacer-4963: Spacer
   contentcubes:
     contentcubes-7850: 'Content Cubes'
-  copyright:
-    copyright-1660: Copyright
   totop:
     totop-6437: 'To Top'
+  copyright:
+    copyright-1660: Copyright
   horizontalmenu:
     horizontalmenu-9495: 'Horizontal Menu'
   mobile-menu:
@@ -59,8 +59,8 @@ inherit:
     footer: footer
     logo-9842: logo-9571
     spacer-4963: spacer-2500
-    copyright-1660: copyright-1736
     totop-6437: totop-8670
+    copyright-1660: copyright-1736
     horizontalmenu-9495: horizontalmenu-1158
     offcanvas: offcanvas
     mobile-menu-4725: mobile-menu-5697

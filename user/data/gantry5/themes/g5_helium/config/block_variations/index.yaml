@@ -1,5 +1,5 @@
 name: block_variations
-timestamp: 1487584175
+timestamp: 1487628099
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -55,10 +55,12 @@ particles:
     social-5921: Social
   position:
     position-position-7023: Sidebar
-  copyright:
-    copyright-7473: Copyright
+  spacer:
+    spacer-9805: Spacer
   totop:
     totop-3124: 'To Top'
+  copyright:
+    copyright-7473: Copyright
   horizontalmenu:
     horizontalmenu-2928: 'Horizontal Menu'
   mobile-menu:
@@ -83,7 +85,8 @@ inherit:
     social-5921: social-3171
     position-position-7023: position-position-3949
     logo-7038: logo-9571
-    copyright-7473: copyright-1736
+    spacer-9805: spacer-2500
     totop-3124: totop-8670
+    copyright-7473: copyright-1736
     horizontalmenu-2928: horizontalmenu-1158
     mobile-menu-3482: mobile-menu-5697
