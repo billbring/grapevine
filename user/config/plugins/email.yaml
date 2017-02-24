@@ -1,0 +1,17 @@
+enabled: true
+from: test@grapevine.com
+from_name: 'Grapevine Website'
+to: hello@joelsmith.online
+to_name: 'Nigel Frost'
+mailer:
+  engine: smtp
+  smtp:
+    server: sub5.mail.dreamhost.com
+    port: 465
+    encryption: ssl
+    user: hello@joelsmith.online
+    password: '@j4hS$QTjaYM'
+  sendmail:
+    bin: /usr/sbin/sendmail
+content_type: text/html
+debug: false

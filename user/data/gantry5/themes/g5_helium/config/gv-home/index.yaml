@@ -1,5 +1,5 @@
 name: gv-home
-timestamp: 1487629004
+timestamp: 1487803277
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -28,14 +28,15 @@ particles:
   social:
     social-8780: Social
   owlcarousel:
-    owlcarousel-2455: 'Owl Carousel'
+    owlcarousel-2455: Carousel
+  contentarray:
+    contentarray-9347: 'Header text'
+    contentarray-7739: 'Footer text'
   custom:
-    custom-5807: Intro
     custom-3119: Features
     custom-3334: 'Official suppliers of...'
     custom-4501: 'Affiliate Logos'
     custom-7658: 'Customer Testimonials'
-    custom-6355: Text
   spacer:
     spacer-8852: Spacer
     spacer-3366: Spacer

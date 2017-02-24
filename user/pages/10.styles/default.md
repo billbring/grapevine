@@ -1,5 +1,0 @@
----
-menu: Styles
-routable: false
----
-

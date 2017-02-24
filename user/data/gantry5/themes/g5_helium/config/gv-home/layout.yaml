@@ -10,7 +10,7 @@ layout:
       - owlcarousel-2455
   /intro/:
     -
-      - custom-5807
+      - contentarray-9347
   /features/:
     -
       - custom-3119
@@ -29,7 +29,7 @@ layout:
       - custom-7658
   /expanded/:
     -
-      - custom-6355
+      - contentarray-7739
   /container-main/:
     -
       -
@@ -101,7 +101,7 @@ structure:
         - children
 content:
   owlcarousel-2455:
-    title: 'Owl Carousel'
+    title: Carousel
     attributes:
       items:
         -
@@ -120,15 +120,21 @@ content:
           linktext: ''
           buttonclass: ''
           name: 'Item 2'
-  custom-5807:
-    title: Intro
+  contentarray-9347:
+    title: 'Header text'
     attributes:
-      html: "<div class=\"fp-intro\">\n<p>We are a Nottingham based IT support company specialising in IT support for Education, Small Business and Home Users. We cover the east midlands and surrounding areas. With over 20 years experience we are passionate about IT and the ongoing support / development of IT systems.</p>\n  <p>We take pride in our reputation and long standing relationships with our customers.<br>Call us today for a free no obligation quotation <a href=\"tel:01159788180\">0115 9788 180</a>.</p>\n</div>"
-    block:
-      variations: center
-      extra:
-        -
-          font-size: 1.4rem
+      article:
+        filter:
+          categories: intro
+        limit:
+          total: '2'
+          columns: '2'
+          start: '0'
+        sort:
+          orderby: default
+          ordering: asc
+      css:
+        class: fp-intro
   custom-3119:
     title: Features
     attributes:
@@ -185,9 +191,18 @@ content:
       html: "<div class=\"fp-testimonials\">\n    <blockquote>\n        <p class=\"h3\">\"We have used Grapevine Network Management Ltd for many years,  both for business and personal use. They have always responded very quickly and with the upmost efficiency. I would highly recommend them.\"</p>\n        <footer>Helen, Tomkins Florists</footer>\n    </blockquote>\n</div>"
     block:
       variations: center
-  custom-6355:
-    title: Text
+  contentarray-7739:
+    title: 'Footer text'
     attributes:
-      html: "<div class=\"fp-multi-column-text\">\n    <h2 class=\"g-title\">More Text</h2>\n    <div class=\"g-grid\">\n        <div class=\"g-block size-50\">\n            <p>\n                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. \n            </p>\n        </div>\n        <div class=\"g-block size-50\">\n            <p>\n                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.\n            </p>\n        </div>\n    </div>\n</div>"
-    block:
-      variations: title-center
+      article:
+        filter:
+          categories: footer
+        limit:
+          total: '2'
+          columns: '2'
+          start: '0'
+        sort:
+          orderby: default
+          ordering: asc
+      css:
+        class: two-column

@@ -2,22 +2,22 @@ enabled: '1'
 article:
   display:
     image:
-      enabled: intro
+      enabled: ''
     text:
-      type: intro
+      type: full
       limit: ''
-      formatting: text
+      formatting: html
     title:
-      enabled: show
+      enabled: ''
     date:
-      enabled: published
+      enabled: ''
       format: 'l, F d, Y'
     read_more:
-      enabled: show
+      enabled: ''
     author:
-      enabled: show
+      enabled: ''
     category:
-      enabled: show
+      enabled: ''
 css:
   class: ''
 extra: {  }
