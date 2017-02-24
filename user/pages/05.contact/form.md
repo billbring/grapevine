@@ -31,15 +31,20 @@ form:
             type: submit
             value: Send
     process:
-        - email:
-            subject: "Grapevine Online Contact Form - {{ form.value.name|e }}"
-            body: "{% include 'forms/data.html.twig' %}"
-            reply_to: "{{ form.value.email }}"
-        - save:
-            fileprefix: 'contact - '
-            dateformat: Y.m.d-H.i.s-u
-            extension: txt
-            body: '{% include ''forms/data.txt.twig'' %}'
-        - message: 'Thank you for getting in touch!'
-        - display: /contact/thankyou
+        -
+            email:
+                subject: 'Grapevine Online Contact Form - {{ form.value.name|e }}'
+                body: '{% include ''forms/data.html.twig'' %}'
+                reply_to: '{{ form.value.email }}'
+        -
+            save:
+                fileprefix: 'contact - '
+                dateformat: Y.m.d-H.i.s-u
+                extension: txt
+                body: '{% include ''forms/data.txt.twig'' %}'
+        -
+            message: 'Thank you for getting in touch!'
+        -
+            display: /contact/thankyou
 ---
+
