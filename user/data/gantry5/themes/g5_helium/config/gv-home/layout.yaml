@@ -78,6 +78,10 @@ structure:
     type: section
     attributes:
       boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'padding:3rem 0;'
   mainbar:
     type: section
     subtype: main

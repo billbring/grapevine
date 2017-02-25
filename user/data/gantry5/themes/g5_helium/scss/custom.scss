@@ -85,8 +85,8 @@ address{font-style: normal;}
     column-rule: 1px solid rgba($base-text-color, 0.2);
   }
   @include breakpoint(no-desktop) {
-    p {text-align: center; margin-top: 0}
-    h2 {text-align: center; padding-bottom: 0.5rem;}
+    //p {text-align: center; margin-top: 0}
+    h2 {text-align: left; padding-bottom: 0.5rem;}
     column-count: 1;
     column-gap: 0;
     column-rule: none;
