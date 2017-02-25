@@ -113,4 +113,4 @@ content:
   custom-6361:
     title: 'Right Sidebar'
     attributes:
-      html: "<address>\n<p>Grapevine Network Management Ltd<br>\nT16 Lenton Business Centre<br>\nLenton Boulevard<br>\nNottingham<br>\nNG7 2BY</p>\n\n<p>Tel: <a href=\"Tel:01159788180\">0115 9788 180</a><br>\nEmail: <a href=\"mailto:info@gvnm.co.uk\">info@gvnm.co.uk</a></p>\n<p>Company No: 6402228<br>\nVAT No: 946869750</p>\n</address>"
+      html: "<address>\n<p>Grapevine Network Management Ltd<br>\nT16 Lenton Business Centre<br>\nLenton Boulevard<br>\nNottingham<br>\nNG7 2BY</p>\n\n<p>Tel: <a href=\"Tel:01159788180\">0115 978 8180</a><br>\nEmail: <a href=\"mailto:info@gvnm.co.uk\">info@gvnm.co.uk</a></p>\n<p>Company No: 6402228<br>\nVAT No: 946869750</p>\n</address>"

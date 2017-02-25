@@ -1,7 +1,4 @@
 @import "dependencies";
-
-
-//Grapevine Colours
 $gv-light: #6b833c;
 $gv-dark: #356535;
 $blue-accent: #0070b9;
@@ -13,45 +10,17 @@ $blue-accent: #0070b9;
 
 //SVG Logo Colours
  svg#grapevine {
-  max-height: 90px;
-  display: block;
-  margin: auto;
-  .gv{fill:white}
-  .nm{fill:white}
-  .icon{fill:$gv-light}
+  max-height: 90px; display: block; margin: auto;
+  .gv{fill:white} .nm{fill:white} .icon{fill:$gv-light}
 }
 
 svg#affiliates {fill:rgba(white, 0.8)}
 
 
-//Homepage (Owl Carousell) top Header background colour
-.g-home-particles {
-    &.g-helium-style {
-        #g-navigation {
-            @include breakpoint(no-mobile) {background: rgba($navigation-background, 0.5);}
-}  }  }
-
-
-
-//Menu alignment and Live Support button styling
-.menu .g-content {padding-left: 0; padding-right: 0; margin-left: 0; margin-right: 0;}
-.menu .btn-support {background: $blue-accent; border-radius: 6px; padding:5px 15px 4px 15px;}
-.g-social-header .g-content {padding-left: 0; padding-right: 0; margin-left: 0; margin-right: 0;}
-
-
 //Override for 'callout' class
 .callout {padding: 0; background: transparent;}
-
 .left-align .callout{text-align: left;}
-
 .zero-padding .g-content {padding-top: 0; padding-bottom: 0;}
-
-
-/*********************
-**** PAGE HEADERS ****
-*********************/
-#g-header {min-height: 24rem}
-
 
 
 /*************
@@ -75,7 +44,6 @@ svg#affiliates {fill:rgba(white, 0.8)}
 #g-features .fa {color: $accent-color-2}
 
 
-
 /*******************
 **** TYPOGRAPHY ****
 *******************/
@@ -85,18 +53,11 @@ body {
 }
 
 // Headings
-h1, h2, h3, h4, h5 {
-    font-family: get-font-family($font-family-default);
-    font-weight: $font-weight-regular;
-}
+h1, h2, h3, h4, h5 {font-family: get-font-family($font-family-default); font-weight: $font-weight-regular;}
 
-h1 {
-    font-weight: $font-weight-bold;
-}
+h1 {font-weight: $font-weight-bold;}
 
-h4 {
-    font-size: $h4-font-size;
-}
+h4 {font-size: $h4-font-size;}
 
 .g-home-particles.g-helium-style .fp-features .g-block .card .card-block .card-title {font-weight: 400;}
 
@@ -108,22 +69,17 @@ h4 {
 }
 
 a {
-    color: $base-text-color;
-    font-weight: 400;
+    color: $base-text-color; font-weight: 400;
     @include transition(all 0.2s);
-    &:hover {
-        color: lighten($base-text-color,30);
-    }
+    &:hover {color: lighten($base-text-color,30);}
 }
 
 address{font-style: normal;}
-
 
 .two-column div.callout {
   @include breakpoint(desktop-only) {
     p {text-align: left; margin: 0}
     h2 {column-span: all; padding-bottom: 2rem;}
-
     column-count: 2;
     column-gap: 10.5rem;
     column-rule: 1px solid rgba($base-text-color, 0.2);
@@ -132,6 +88,8 @@ address{font-style: normal;}
     p {text-align: center; margin-top: 0}
     h2 {text-align: center; padding-bottom: 0.5rem;}
     column-count: 1;
+    column-gap: 0;
+    column-rule: none;
   }
 }
 
@@ -142,6 +100,24 @@ address{font-style: normal;}
 #g-totop {font-weight: 400;}
 .g-horizontalmenu, .g-horizontalmenu a[href^="tel:"]  {font-weight: 400; font-size: 1.6rem; padding-top: 0}
 
+
+/*********************
+**** PAGE HEADERS ****
+*********************/
+.outline-gv-home #g-header {min-height: 10rem}
+#g-header {min-height: 24rem}
+
+//Homepage (Owl Carousell) top Header background colour
+.g-home-particles {
+    &.g-helium-style {
+        #g-navigation {
+            @include breakpoint(no-mobile) {background: rgba($navigation-background, 0.5);}
+}  }  }
+
+//Menu alignment and Live Support button styling
+.menu .g-content {padding-left: 0; padding-right: 0; margin-left: 0; margin-right: 0;}
+.menu .btn-support {background: $blue-accent; border-radius: 6px; padding:5px 15px 4px 15px;}
+.g-social-header .g-content {padding-left: 0; padding-right: 0; margin-left: 0; margin-right: 0;}
 
 
 /*****************
@@ -156,29 +132,10 @@ address{font-style: normal;}
     font-weight: 100;
     margin: ($content-margin * 2) ($content-margin * 2) $content-margin;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
-
-    @include breakpoint(desktop-range) {
-        font-size: 3.5rem;
-        line-height: 3.5rem;
-    }
-
-    @include breakpoint(tablet-range) {
-        font-size: 3rem;
-        line-height: 3rem;
-        margin-top: ($content-margin * 5);
-    }
-
-    @include breakpoint(large-mobile-range) {
-        margin-top: 0;
-        font-size: 2.2rem;
-        line-height: 2.2rem;
-    }
-
-    @include breakpoint(small-mobile-range) {
-        margin-top: 0;
-        font-size: 1.5rem;
-        line-height: 1.5rem;
-    }
+    @include breakpoint(desktop-range) {font-size: 3.5rem; line-height: 3.5rem;}
+    @include breakpoint(tablet-range) {font-size: 3rem; line-height: 3rem; margin-top: ($content-margin * 5);}
+    @include breakpoint(large-mobile-range) {margin-top: 0; font-size: 2.2rem; line-height: 2.2rem;}
+    @include breakpoint(small-mobile-range) {margin-top: 0; font-size: 1.5rem; line-height: 1.5rem;}
 }
 
 .g-owlcarousel-item-desc {
@@ -189,33 +146,12 @@ address{font-style: normal;}
     margin-top: 0;
     margin-bottom: $content-margin;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
-
-    @include breakpoint(desktop-range) {
-        font-size: 2.2rem;
-        line-height: 2.2rem;
-    }
-
-    @include breakpoint(tablet-range) {
-        font-size: 2rem;
-        line-height: 2rem;
-        padding-bottom: 0;
-    }
-
-    @include breakpoint(mobile-only) {
-      font-size: 1.1rem;
-      line-height: 1.875rem;
-      padding-bottom: 0;
-      display: block;
-    }
+    @include breakpoint(desktop-range) {font-size: 2.2rem; line-height: 2.2rem;}
+    @include breakpoint(tablet-range) {font-size: 2rem; line-height: 2rem; padding-bottom: 0;}
+    @include breakpoint(mobile-only) {font-size: 1.1rem; line-height: 1.875rem; padding-bottom: 0; display: block;}
 }
 
 .g-owlcarousel-item-button {
-    @include breakpoint(tablet-range) {
-        padding: 1rem 2.625rem;
-        font-size: $core-font-size - 0.4;
-    }
-
-    @include breakpoint(mobile-only) {
-        display: none;
-    }
+    @include breakpoint(tablet-range) {padding: 1rem 2.625rem; font-size: $core-font-size - 0.4;}
+    @include breakpoint(mobile-only) {display: none;}
 }
