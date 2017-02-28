@@ -1,5 +1,5 @@
 name: full_width
-timestamp: 1487628099
+timestamp: 1488315741
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -15,6 +15,7 @@ sections:
   above: Above
   testimonials: Testimonials
   expanded: Expanded
+  call: Call
   header: Header
   mainbar: Mainbar
   sidebar: Sidebar

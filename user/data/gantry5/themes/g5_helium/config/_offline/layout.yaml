@@ -28,6 +28,7 @@ layout:
             - system-messages-9096
       -
         'sidebar 25': {  }
+  call: {  }
   /footer/:
     -
       - 'logo-9571 10'

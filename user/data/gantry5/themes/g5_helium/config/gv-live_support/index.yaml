@@ -1,5 +1,5 @@
 name: gv-live_support
-timestamp: 1488046355
+timestamp: 1488318218
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -15,6 +15,7 @@ sections:
   above: Above
   testimonials: Testimonials
   expanded: Expanded
+  call: Call
   header: Header
   mainbar: Mainbar
   sidebar: Sidebar

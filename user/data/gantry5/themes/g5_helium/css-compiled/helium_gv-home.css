@@ -1457,8 +1457,6 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding: 3rem 0;
   position: relative;
   z-index: 10;
-  background: url('../../../../../images/g5_helium/header/grapevine-it-education-02_02.jpg') center center no-repeat;
-  background-size: cover;
 }
 /* line 30, user/themes/g5_helium/scss/helium/sections/_header.scss */
 #g-header a {
@@ -1942,7 +1940,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding: 3rem 0;
   position: relative;
   z-index: 10;
-  background: url('../../../../../images/g5_helium/testimonials/florists.jpg?58a8b253') no-repeat center top;
+  background: url('../../../../../images/g5_helium/testimonials/florists.jpg') no-repeat center top;
   background-size: cover;
 }
 /* line 27, user/themes/g5_helium/scss/helium/sections/_testimonials.scss */

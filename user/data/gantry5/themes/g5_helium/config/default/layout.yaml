@@ -26,6 +26,7 @@ layout:
         'sidebar 25':
           -
             - position-position-3949
+  /call/: {  }
   /footer/:
     -
       - 'logo-9571 21'

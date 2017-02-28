@@ -51,6 +51,7 @@ layout:
             - custom-2883
       -
         'sidebar 25': {  }
+  call: {  }
   footer: {  }
   offcanvas: {  }
 structure:

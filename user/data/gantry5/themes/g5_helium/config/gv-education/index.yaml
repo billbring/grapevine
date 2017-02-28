@@ -1,5 +1,5 @@
 name: gv-education
-timestamp: 1487628099
+timestamp: 1488319140
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -14,17 +14,20 @@ sections:
   above: Above
   testimonials: Testimonials
   expanded: Expanded
+  call: Call
   header: Header
   mainbar: Mainbar
   sidebar: Sidebar
   footer: Footer
   offcanvas: Offcanvas
 particles:
-  content:
-    system-content-4318: 'Page Content'
   custom:
+    custom-7130: 'Custom HTML'
     custom-6361: 'Right Sidebar'
     custom-6313: Header
+    custom-5314: 'Call to action'
+  content:
+    system-content-4318: 'Page Content'
   logo:
     logo-7815: 'Logo / Image'
     logo-4716: 'Logo / Image'
@@ -59,3 +62,6 @@ inherit:
   gv-business:
     header: header
     custom-6313: custom-6833
+  gv-home:
+    call: call
+    custom-5314: custom-9680

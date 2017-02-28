@@ -20,6 +20,7 @@ layout:
             - system-content-1587
       -
         'sidebar 25': {  }
+  call: {  }    
   footer: {  }
   offcanvas: {  }
 structure:

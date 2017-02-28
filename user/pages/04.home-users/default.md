@@ -2,12 +2,8 @@
 title: 'Home Users'
 ---
 
-# Home User IT Support
-
 Grapevine have long standing relationships with many home users across the East Midlands, we provide an ‘at home’ range of IT support for all your needs, please look at the services below. 
 It is quite likely that a computer will fail at some point, with regular maintenance this can be dramatically reduced.
-
-A majority of IT issues can normally be resolved via remote connection which is charged in 20minute blocks, but if we can’t resolve it remotely we can arrange to come to you at our competitive hourly rate.
 
 * Set up new IT equipment
 * iPad repairs

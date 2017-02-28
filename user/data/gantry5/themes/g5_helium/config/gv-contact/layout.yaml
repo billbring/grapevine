@@ -5,7 +5,9 @@ preset:
   timestamp: 1468340932
 layout:
   navigation: {  }
-  header: {  }
+  /header/:
+    -
+      - custom-6833
   /intro/:
     -
       - custom-7130
@@ -13,7 +15,9 @@ layout:
   /utility/: {  }
   /above/: {  }
   /testimonials/: {  }
-  /expanded/: {  }
+  /expanded/:
+    -
+      - custom-7705
   /container-main/:
     -
       -
@@ -25,6 +29,7 @@ layout:
         'sidebar 30':
           -
             - custom-6361
+  call: {  }
   footer: {  }
   offcanvas: {  }
 structure:
@@ -36,11 +41,9 @@ structure:
         - attributes
         - children
   header:
-    inherit:
-      outline: gv-business
-      include:
-        - attributes
-        - children
+    attributes:
+      boxed: ''
+      class: ''
   intro:
     type: section
     attributes:
@@ -75,9 +78,6 @@ structure:
     subtype: main
     attributes:
       class: ''
-      extra:
-        -
-          style: 'padding-top:0'
   sidebar:
     type: section
     subtype: aside
@@ -102,6 +102,12 @@ structure:
         - children
         - attributes
 content:
+  custom-6833:
+    title: Header
+    attributes:
+      html: '&nbsp;'
+    block:
+      variations: center
   custom-7130:
     title: 'Custom HTML'
     attributes:
@@ -110,6 +116,11 @@ content:
       extra:
         -
           style: 'margin-bottom:0; padding-bottom:0'
+  custom-7705:
+    title: 'Custom HTML'
+    attributes:
+      enabled: 0
+      html: "<div class=\"container\">\n    <div id=\"map_container\"></div>\n    <div id=\"map\"></div>\n</div>\t"
   custom-6361:
     title: 'Right Sidebar'
     attributes:

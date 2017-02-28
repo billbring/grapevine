@@ -2,8 +2,6 @@
 title: Business
 ---
 
-# Business
-
 Grapevine knows how important technology is to the running and success of your business in this fast moving world. We’ve made our IT services simple and easy to understand with no long term contracts.  We currently provide installations and support to a wide variety of business types within East Midlands
 
 * City Centre Estate Agent
@@ -13,8 +11,8 @@ Grapevine knows how important technology is to the running and success of your b
 * Metal Fabrications
 * Heavy Goods Vehicle Maintenance
 
-We can quote on new IT equipment and consumable’s being very competitive on pricing as we have a great relationship with our suppliers, why not give us a try for a quote on any IT equipment.
- 
+---
+
 **We also provide:**
 
 * Website and email hosting

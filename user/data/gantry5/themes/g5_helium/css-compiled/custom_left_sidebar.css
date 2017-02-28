@@ -313,3 +313,52 @@ address {
     display: none;
   }
 }
+/*********************
+ **** FIXED HEADER ****
+ *********************/
+/* line 163, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.headroom {
+  -webkit-transition: -webkit-transform 200ms linear;
+  -moz-transition: -moz-transform 200ms linear;
+  transition: transform 200ms linear;
+}
+/* line 166, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.headroom--pinned {
+  -webkit-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  -o-transform: translateY(0%);
+  transform: translateY(0%);
+}
+/* line 169, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.headroom--unpinned {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+/* line 181, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.g-offcanvas-toggle.headroom--not-top {
+  position: fixed;
+  z-index: 1002;
+}
+/* line 184, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.g-offcanvas-toggle.headroom--not-top.headroom--unpinned {
+  top: 0;
+}
+/* line 189, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+/* line 190, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.g-offcanvas-open #g-navigation.headroom--not-top {
+  left: 12rem;
+}
+/* line 193, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+.g-offcanvas-open .g-offcanvas-toggle.headroom--not-top {
+  left: 12.7rem;
+}
+/* line 198, user/data/gantry5/themes/g5_helium/scss/custom.scss */
+#g-navigation.headroom--not-top, .g-offcanvas-toggle.headroom--not-top {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}

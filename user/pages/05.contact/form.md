@@ -13,6 +13,20 @@ form:
             validate:
                 required: true
         -
+            name: organisation
+            label: 'Organisation Name'
+            placeholder: 'Enter your organisation''s name'
+            type: text
+            validate:
+                required: false
+        -
+            name: telephone
+            label: Telephone
+            placeholder: 'Enter your telephone number'
+            type: text
+            validate:
+                required: false
+        -
             name: email
             label: Email
             placeholder: 'Enter your email address'
@@ -21,14 +35,15 @@ form:
                 required: true
         -
             name: message
-            label: Message
-            placeholder: 'Enter your message'
+            label: Enquiry
+            placeholder: 'Enter your enquiry'
             type: textarea
             validate:
                 required: true
     buttons:
         -
             type: submit
+            classes: 'button-small button'
             value: Send
     process:
         -

@@ -1,5 +1,5 @@
 name: gv-contact
-timestamp: 1488046275
+timestamp: 1488315754
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -14,6 +14,7 @@ sections:
   above: Above
   testimonials: Testimonials
   expanded: Expanded
+  call: Call
   header: Header
   mainbar: Mainbar
   sidebar: Sidebar
@@ -21,9 +22,10 @@ sections:
   offcanvas: Offcanvas
 particles:
   custom:
+    custom-6833: Header
     custom-7130: 'Custom HTML'
+    custom-7705: 'Custom HTML'
     custom-6361: 'Right Sidebar'
-    custom-6485: Header
   content:
     system-content-3977: 'Page Content'
   spacer:
@@ -58,6 +60,3 @@ inherit:
     copyright-1086: copyright-1736
     horizontalmenu-7854: horizontalmenu-1158
     mobile-menu-2525: mobile-menu-5697
-  gv-business:
-    header: header
-    custom-6485: custom-6833

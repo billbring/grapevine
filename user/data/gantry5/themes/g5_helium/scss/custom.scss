@@ -1,4 +1,5 @@
 @import "dependencies";
+$bright-green: #9acd32;
 $gv-light: #6b833c;
 $gv-dark: #356535;
 $blue-accent: #0070b9;
@@ -50,6 +51,7 @@ svg#affiliates {fill:rgba(white, 0.8)}
 body {
     font-family: get-font-family($font-family-default);
     font-weight: 300;
+    @include breakpoint(no-mobile) {font-size: 1.125rem;}
 }
 
 // Headings
@@ -92,6 +94,29 @@ address{font-style: normal;}
     column-rule: none;
   }
 }
+
+//map marker text
+.outline-gv-contact #g-header .gm-style-iw{color:$base-text-color; line-height: $core-line-height - 0.3;}
+
+//call to action
+#g-call {
+  background: $bright-green;
+  p{font-size: 1.4rem; margin-bottom: 3rem;}
+  h2{font-size: 2.4rem;}
+  .button {
+      background: $white;
+      color: $base-text-color;
+      border: 1px solid transparent;
+      margin-bottom: 2rem;
+      @include transition(all 0.2s);
+
+      &:hover, &:active, &:focus {
+          background: darken($white, 10%);
+          color: $base-text-color;
+      }
+  }
+}
+
 
 
 /*****************
@@ -154,4 +179,61 @@ address{font-style: normal;}
 .g-owlcarousel-item-button {
     @include breakpoint(tablet-range) {padding: 1rem 2.625rem; font-size: $core-font-size - 0.4;}
     @include breakpoint(mobile-only) {display: none;}
+}
+
+
+/*********************
+**** FIXED HEADER ****
+********************
+.headroom {
+    @include transition(transform 200ms linear);
+}
+.headroom--pinned {
+    @include transform(translateY(0%));
+}
+.headroom--unpinned {
+    @include transform(translateY(-100%));
+}
+
+#g-navigation.headroom--not-top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1001;
+    left: 0;
+}
+
+.g-offcanvas-toggle.headroom--not-top {
+    position: fixed;
+    z-index: 1002;
+    &.headroom--unpinned {
+        top: 0;
+    }
+}
+
+.g-offcanvas-open {
+    #g-navigation.headroom--not-top {
+        left: $offcanvas-width;
+    }
+    .g-offcanvas-toggle.headroom--not-top {
+        left: $offcanvas-width + 0.7rem;
+    }
+}
+
+#g-navigation.headroom--not-top, .g-offcanvas-toggle.headroom--not-top {
+    @include transition(all 0.3s);
+}
+*/
+
+
+#g-mainbar{padding-top: 0;
+  .g-content{padding-top:0; margin-top: 0;}
+}
+
+#g-sidebar {padding-top: 0.5rem;
+  .g-content{margin:0.625rem 1.5rem}
+}
+
+.box-outline.moduletable, .box-outline.widget, .box-outline.g-outer-box, .box-outline > .g-content {
+  border: 1px solid $bright-green;
 }

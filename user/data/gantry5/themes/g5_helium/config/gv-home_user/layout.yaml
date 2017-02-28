@@ -6,7 +6,9 @@ preset:
 layout:
   navigation: {  }
   header: {  }
-  /intro/: {  }
+  /intro/:
+    -
+      - custom-7130
   /features/: {  }
   /utility/: {  }
   /above/: {  }
@@ -15,13 +17,15 @@ layout:
   /container-main/:
     -
       -
-        'mainbar 75':
+        'mainbar 70':
           -
-            - system-content-1618
+            - 'system-content-1618 90'
+            - 'spacer-9304 10'
       -
-        'sidebar 25':
+        'sidebar 30':
           -
             - custom-6361
+  call: {  }
   footer: {  }
   offcanvas: {  }
 structure:
@@ -42,6 +46,10 @@ structure:
     type: section
     attributes:
       boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'background:white; padding-bottom:0'
   features:
     type: section
     attributes:
@@ -72,6 +80,13 @@ structure:
   container-main:
     attributes:
       boxed: ''
+  call:
+    type: section
+    inherit:
+      outline: gv-home
+      include:
+        - attributes
+        - children
   footer:
     inherit:
       outline: default
@@ -85,10 +100,17 @@ structure:
         - children
         - attributes
 content:
+  custom-7130:
+    title: 'Custom HTML'
+    attributes:
+      html: '<h1 style="margin-bottom:0">Home User IT Support</h1>'
+    block:
+      extra:
+        -
+          style: 'margin-bottom:0; padding-bottom:0'
   custom-6361:
     title: 'Right Sidebar'
     attributes:
-      enabled: 0
-      html: "<h3>Right Sidebar</h3>\n<p class=\"nomarginbottom\"> A right column layout example. The sidebar is independent from the Mainbody so can have multiple rows and columns, separate from the Mainbody area.</p>"
+      html: '<p> A majority of IT issues can normally be resolved via <a href="live-support">remote connection</a> which is charged in 20 minute blocks, but if we can’t resolve it remotely we can arrange to come to you at our competitive hourly rate.</p>'
     block:
       variations: box-outline

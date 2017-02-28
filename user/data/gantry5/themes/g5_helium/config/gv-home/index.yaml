@@ -1,5 +1,5 @@
 name: gv-home
-timestamp: 1488047124
+timestamp: 1488319140
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -14,6 +14,7 @@ sections:
   above: Above
   testimonials: Testimonials
   expanded: Expanded
+  call: Call
   header: Header
   mainbar: Mainbar
   sidebar: Sidebar
@@ -37,6 +38,7 @@ particles:
     custom-3334: 'Official suppliers of...'
     custom-4501: 'Affiliate Logos'
     custom-7658: 'Customer Testimonials'
+    custom-9680: 'Call to action'
   spacer:
     spacer-8852: Spacer
     spacer-3366: Spacer
@@ -46,7 +48,7 @@ particles:
   totop:
     totop-6437: 'To Top'
   copyright:
-    copyright-1660: Copyright
+    copyright-1660: Untitled
   horizontalmenu:
     horizontalmenu-9495: 'Horizontal Menu'
   mobile-menu:
@@ -61,7 +63,6 @@ inherit:
     logo-9842: logo-9571
     spacer-4963: spacer-2500
     totop-6437: totop-8670
-    copyright-1660: copyright-1736
     horizontalmenu-9495: horizontalmenu-1158
     offcanvas: offcanvas
     mobile-menu-4725: mobile-menu-5697

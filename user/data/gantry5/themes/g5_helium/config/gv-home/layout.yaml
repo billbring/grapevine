@@ -7,7 +7,8 @@ layout:
   navigation: {  }
   /header/:
     -
-      - owlcarousel-2455
+      -
+        - owlcarousel-2455
   /intro/:
     -
       - contentarray-9347
@@ -36,6 +37,9 @@ layout:
         'mainbar 75': {  }
       -
         'sidebar 25': {  }
+  /call/:
+    -
+      - custom-9680
   footer: {  }
   offcanvas: {  }
 structure:
@@ -91,6 +95,11 @@ structure:
   container-main:
     attributes:
       boxed: ''
+  call:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
   footer:
     inherit:
       outline: default
@@ -124,6 +133,30 @@ content:
           linktext: ''
           buttonclass: ''
           name: 'Item 2'
+        -
+          image: 'gantry-media://header/grapevine-it-support-business-01.jpg'
+          title: 'IT Support Made Easy'
+          desc: 'Call <a href="tel:01159788180">0115 978 8180</a>'
+          link: ''
+          linktext: ''
+          buttonclass: ''
+          name: 'Item 3'
+        -
+          image: 'gantry-media://header/grapevine-it-support-home-user-01.jpg'
+          title: 'IT Support Made Easy'
+          desc: 'Call <a href="tel:01159788180">0115 978 8180</a>'
+          link: ''
+          linktext: ''
+          buttonclass: ''
+          name: 'Item 4'
+        -
+          image: 'gantry-media://header/grapevine-it-support-education-03.jpg'
+          title: 'IT Support Made Easy'
+          desc: 'Call <a href="tel:01159788180">0115 978 8180</a>'
+          link: ''
+          linktext: ''
+          buttonclass: ''
+          name: 'Item 5'
   contentarray-9347:
     title: 'Header text'
     attributes:
@@ -142,7 +175,7 @@ content:
   custom-3119:
     title: Features
     attributes:
-      html: "<div class=\"fp-features\">\n    <div class=\"g-grid\">\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-wrench\"></i>\n                    <h4 class=\"card-title\">Installation</h4>\n                    <p class=\"card-text\">Grapevine can undertake all types of installations,  ranging from simple laptop \\ computer installs to full network design and implantation. Structured cabling (Cat5e,  Cat6, Fibre, Telephony). AV installs to meet you requirements.</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-cogs\"></i>\n                    <h4 class=\"card-title\">Maintenance</h4>\n                    <p class=\"card-text\">Need Grapevine to maintain your existing system.  Get in touch for a free no obligation quotation.</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-life-ring\"></i>\n                    <h4 class=\"card-title\">Support</h4>\n                    <p class=\"card-text\">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+      html: "<div class=\"fp-features\">\n    <div class=\"g-grid\">\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-wrench\"></i>\n                    <h4 class=\"card-title\">Installation</h4>\n                    <p class=\"card-text\">Tell us what you need, we will investigate and provide a plan. Our experience can help you get the most from your tech budget.</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-cogs\"></i>\n                    <h4 class=\"card-title\">Maintenance</h4>\n                    <p class=\"card-text\">We keep things ticking over and identify issues before they become a problem, helping clients to maintain service levels and plan for any outages.</p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <i class=\"fa fa-life-ring\"></i>\n                    <h4 class=\"card-title\">Support</h4>\n                    <p class=\"card-text\">Inevitably there will be challenges, and when they come you will have an assured direct line to our team of expert technicians.</p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
     block:
       variations: center
   custom-3334:
@@ -198,6 +231,7 @@ content:
   contentarray-7739:
     title: 'Footer text'
     attributes:
+      enabled: 0
       article:
         filter:
           categories: footer
@@ -210,3 +244,9 @@ content:
           ordering: asc
       css:
         class: two-column
+  custom-9680:
+    title: 'Call to action'
+    attributes:
+      html: "<h2>Need Support?</h2>\n<p>If you need IT help or support, get in touch with our expert technicians by calling <a href=\"tel:01159788180\">0115 978 8180</a><br> or click the button to fill out our quick online enquiry form.</p>\n<a href=\"contact\" class=\"button button-large\">Get in Touch</a>\n"
+    block:
+      variations: center

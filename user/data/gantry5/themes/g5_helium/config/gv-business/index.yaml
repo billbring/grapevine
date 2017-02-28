@@ -1,5 +1,5 @@
 name: gv-business
-timestamp: 1487628099
+timestamp: 1488319140
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -14,6 +14,7 @@ sections:
   above: Above
   testimonials: Testimonials
   expanded: Expanded
+  call: Call
   header: Header
   mainbar: Mainbar
   sidebar: Sidebar
@@ -22,9 +23,14 @@ sections:
 particles:
   custom:
     custom-6833: Header
+    custom-7130: 'Custom HTML'
     custom-6361: 'Right Sidebar'
+    custom-6437: 'Call to action'
   content:
     system-content-5712: 'Page Content'
+  spacer:
+    spacer-2947: Spacer
+    spacer-9349: Spacer
   logo:
     logo-8447: 'Logo / Image'
     logo-2718: 'Logo / Image'
@@ -32,8 +38,6 @@ particles:
     menu-1009: Menu
   social:
     social-2877: Social
-  spacer:
-    spacer-9349: Spacer
   totop:
     totop-4308: 'To Top'
   copyright:
@@ -56,3 +60,6 @@ inherit:
     copyright-9748: copyright-1736
     horizontalmenu-8294: horizontalmenu-1158
     mobile-menu-6316: mobile-menu-5697
+  gv-home:
+    call: call
+    custom-6437: custom-9680

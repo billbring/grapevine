@@ -1,5 +1,5 @@
 name: default
-timestamp: 1488046177
+timestamp: 1488315136
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -15,6 +15,7 @@ sections:
   above: Above
   testimonials: Testimonials
   expanded: Expanded
+  call: Call
   header: Header
   mainbar: Mainbar
   sidebar: Sidebar
