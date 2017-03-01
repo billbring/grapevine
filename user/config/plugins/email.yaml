@@ -1,16 +1,16 @@
 enabled: true
-from: test@grapevine.com
+from: website@gvnm.co.uk
 from_name: 'Grapevine Website'
-to: hello@joelsmith.online
+to: website@gvnm.co.uk
 to_name: 'Nigel Frost'
 mailer:
   engine: smtp
   smtp:
-    server: sub5.mail.dreamhost.com
-    port: 465
-    encryption: ssl
-    user: hello@joelsmith.online
-    password: '@j4hS$QTjaYM'
+    server: smtp.office365.com
+    port: 587
+    encryption: tls
+    user: nigel.frost@gvnm.co.uk
+    password: Katie030273!
   sendmail:
     bin: /usr/sbin/sendmail
 content_type: text/html
