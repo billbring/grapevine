@@ -7,7 +7,6 @@ form:
             name: name
             label: Name
             placeholder: 'Enter your name'
-            autofocus: 'on'
             autocomplete: 'on'
             type: text
             validate:
@@ -47,16 +46,16 @@ form:
             value: Send
     process:
         -
-            email:
-                subject: 'Grapevine Online Contact Form - {{ form.value.name|e }}'
-                body: '{% include ''forms/data.html.twig'' %}'
-                reply_to: '{{ form.value.email }}'
-        -
             save:
                 fileprefix: 'contact - '
                 dateformat: Y.m.d-H.i.s-u
                 extension: txt
                 body: '{% include ''forms/data.txt.twig'' %}'
+        -
+            email:
+                subject: 'Grapevine Online Contact Form - {{ form.value.name|e }}'
+                body: '{% include ''forms/data.html.twig'' %}'
+                reply_to: '{{ form.value.email }}'
         -
             message: 'Thank you for getting in touch!'
         -

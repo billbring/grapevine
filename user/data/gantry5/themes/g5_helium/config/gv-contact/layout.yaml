@@ -21,12 +21,12 @@ layout:
   /container-main/:
     -
       -
-        'mainbar 70':
+        'mainbar 66':
           -
             - 'system-content-3977 90'
             - 'spacer-4523 10'
       -
-        'sidebar 30':
+        'sidebar 34':
           -
             - custom-6361
   call: {  }
@@ -89,6 +89,8 @@ structure:
   container-main:
     attributes:
       boxed: ''
+  call:
+    type: section
   footer:
     inherit:
       outline: default

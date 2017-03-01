@@ -1,5 +1,5 @@
 name: gv-contact
-timestamp: 1488315754
+timestamp: 1488405243
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -21,6 +21,13 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
+  logo:
+    logo-6747: 'Logo / Image'
+    logo-9662: 'Logo / Image'
+  menu:
+    menu-7899: Menu
+  social:
+    social-8412: Social
   custom:
     custom-6833: Header
     custom-7130: 'Custom HTML'
@@ -31,13 +38,6 @@ particles:
   spacer:
     spacer-4523: Spacer
     spacer-5395: Spacer
-  logo:
-    logo-6747: 'Logo / Image'
-    logo-9662: 'Logo / Image'
-  menu:
-    menu-7899: Menu
-  social:
-    social-8412: Social
   totop:
     totop-4399: 'To Top'
   copyright:
@@ -49,14 +49,14 @@ particles:
 inherit:
   default:
     navigation: navigation
-    footer: footer
-    offcanvas: offcanvas
     logo-6747: logo-9608
     menu-7899: menu-6409
     social-8412: social-3171
+    footer: footer
     logo-9662: logo-9571
     spacer-5395: spacer-2500
     totop-4399: totop-8670
     copyright-1086: copyright-1736
     horizontalmenu-7854: horizontalmenu-1158
+    offcanvas: offcanvas
     mobile-menu-2525: mobile-menu-5697
