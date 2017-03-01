@@ -5,6 +5,7 @@ cache/*
 assets/*
 logs/*
 images/*
+/.htaccess
 
 
 # OS Generated
