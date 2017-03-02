@@ -78,9 +78,9 @@ svg#affiliates {
   font-size: 1.2rem;
   font-weight: 100;
 }
-/**********************
+/*****************
  **** FEATURES ****
- **********************/
+ *****************/
 /* line 45, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 #g-features .fa {
   color: #081120;
@@ -106,6 +106,7 @@ h1, h2, h3, h4, h5 {
 /* line 60, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 h1 {
   font-weight: 700;
+  line-height: 1.4;
 }
 /* line 62, user/data/gantry5/themes/g5_helium/scss/custom.scss */
 h4 {

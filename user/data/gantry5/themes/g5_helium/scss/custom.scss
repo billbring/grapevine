@@ -57,7 +57,7 @@ body {
 // Headings
 h1, h2, h3, h4, h5 {font-family: get-font-family($font-family-default); font-weight: $font-weight-regular;}
 
-h1 {font-weight: $font-weight-bold;}
+h1 {font-weight: $font-weight-bold; line-height: 1.4}
 
 h4 {font-size: $h4-font-size;}
 

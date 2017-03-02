@@ -4,7 +4,7 @@ admin/images/preset3.png	016dc86550ce964ad7517428547469c7
 admin/images/preset4.png	9beebb6d87c64ff47f6dd4969131ea88
 admin/images/preset5.png	57ffde03f72207c0b13d56e2c4254646
 admin/images/preset6.png	811be19e12ceef212a89941049c14fbe
-admin/templates/pages/about/about.html.twig	71ef270925ab6685f58e5adb79d917b2
+admin/templates/pages/about/about.html.twig	54dbcb3d8644b22f168184f9e0cdcb14
 blueprints/styles/above.yaml	08e3b34af01e786436cdc45e2311ebde
 blueprints/styles/accent.yaml	88b7140fde979d903e0ba332dca7c588
 blueprints/styles/base.yaml	eb099f24a6083962727fce82fc643fde
@@ -132,7 +132,7 @@ fonts/rockettheme-apps/rockettheme-apps.ttf	2185692f8168ab2fa54c0923be97f190
 fonts/rockettheme-apps/rockettheme-apps.woff	f1258374fedaa30401743337048a64bb
 fonts/rockettheme-apps/rockettheme-apps.woff2	0b76f0674592d3d4653e6524045e890e
 gantry/presets.yaml	0eea13393b55596c0487a798c59489f3
-gantry/theme.yaml	57c2f9778612ad36c4c0ff430d3a47f6
+gantry/theme.yaml	ca15408b727eca52a659d4c9104d9357
 images/above/img01.jpeg	45d1bc6fa1ac764f15b937a1e1e9a377
 images/above/img02.jpeg	c08f1ce863d7c69e1b73ce49f8b48416
 images/header/img01.jpg	fb3b9862ecc04e7206e246659e68f2af
@@ -161,7 +161,7 @@ particles/copyright.html.twig	b0524afc8f1f531702585117a770d2dc
 particles/copyright.yaml	d317213bf88779adbe3d89885a1b1f2c
 particles/horizontalmenu.html.twig	af11beb3720496aaf9d52a0dcea6718e
 particles/horizontalmenu.yaml	1916d0a5cf34d6e2ac31e736dec6db7c
-particles/owlcarousel.html.twig	93d1959e1eee4edbcdced99eced299bf
+particles/owlcarousel.html.twig	271feff699d8e466356a633064fef502
 particles/owlcarousel.yaml	19354e82f21458da91daa517f297bdf8
 particles/totop.html.twig	b129b99b62916d5ab4b5df2985721182
 scss/configuration/_base.scss	eca6279273f288549eee4130846fe2cf
@@ -214,6 +214,6 @@ includes/theme.php	ab4f31781afc5855a01ddebfc2ea1d0d
 g5_helium.yaml	c992c6c2943becc7320a32e402e7e4f8
 screenshot.jpg	8c441eee4bbff673b59e8f260c8c63b0
 thumbnail.jpg	2dc8a8f0a406139234d4c0bf9d151fe1
-blueprints.yaml	5b57d5560e0daaacddfd9234082d49e6
+blueprints.yaml	6ffa74aabd740aa58a97a82ecc08ba11
 theme.php	fb6046bdf5a8465e8c688a5ffa5a3ab6
 MD5SUMS	d41d8cd98f00b204e9800998ecf8427e
