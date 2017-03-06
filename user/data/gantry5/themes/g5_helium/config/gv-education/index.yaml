@@ -1,5 +1,5 @@
 name: gv-education
-timestamp: 1488319140
+timestamp: 1488831729
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -21,13 +21,6 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
-  custom:
-    custom-7130: 'Custom HTML'
-    custom-6361: 'Right Sidebar'
-    custom-6313: Header
-    custom-5314: 'Call to action'
-  content:
-    system-content-4318: 'Page Content'
   logo:
     logo-7815: 'Logo / Image'
     logo-4716: 'Logo / Image'
@@ -35,6 +28,14 @@ particles:
     menu-6061: Menu
   social:
     social-3145: Social
+  custom:
+    custom-6313: Header
+    custom-7130: 'Custom HTML'
+    custom-5314: 'Call to action'
+  content:
+    system-content-4318: 'Page Content'
+  contentarray:
+    contentarray-9614: 'Grav Content'
   spacer:
     spacer-8920: Spacer
   totop:
@@ -48,16 +49,16 @@ particles:
 inherit:
   default:
     navigation: navigation
-    footer: footer
-    offcanvas: offcanvas
     logo-7815: logo-9608
     menu-6061: menu-6409
     social-3145: social-3171
+    footer: footer
     logo-4716: logo-9571
     spacer-8920: spacer-2500
     totop-3109: totop-8670
     copyright-8305: copyright-1736
     horizontalmenu-6355: horizontalmenu-1158
+    offcanvas: offcanvas
     mobile-menu-5826: mobile-menu-5697
   gv-business:
     header: header

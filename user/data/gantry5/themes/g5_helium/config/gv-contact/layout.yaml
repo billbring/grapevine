@@ -28,7 +28,7 @@ layout:
       -
         'sidebar 34':
           -
-            - custom-6361
+            - contentarray-9614
   call: {  }
   footer: {  }
   offcanvas: {  }
@@ -83,9 +83,6 @@ structure:
     subtype: aside
     attributes:
       class: ''
-      extra:
-        -
-          style: 'padding-top:0'
   container-main:
     attributes:
       boxed: ''
@@ -123,7 +120,18 @@ content:
     attributes:
       enabled: 0
       html: "<div class=\"container\">\n    <div id=\"map_container\"></div>\n    <div id=\"map\"></div>\n</div>\t"
-  custom-6361:
-    title: 'Right Sidebar'
+  contentarray-9614:
+    title: 'Grav Content'
     attributes:
-      html: "<address>\n<p>Grapevine Network Management Ltd<br>\nT16 Lenton Business Centre<br>\nLenton Boulevard<br>\nNottingham<br>\nNG7 2BY</p>\n\n<p>Tel: <a href=\"Tel:01159788180\">0115 978 8180</a><br>\nEmail: <a href=\"mailto:info@gvnm.co.uk\">info@gvnm.co.uk</a></p>\n<p>Company No: 6402228<br>\nVAT No: 946869750</p>\n</address>"
+      article:
+        filter:
+          categories: contact-sidebar
+        limit:
+          total: '1'
+          columns: '1'
+          start: '0'
+        sort:
+          orderby: default
+          ordering: asc
+    block:
+      class: 'zero-padding left-align'

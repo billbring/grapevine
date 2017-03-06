@@ -4,7 +4,7 @@ from_name: 'Grapevine Website'
 to: website@gvnm.co.uk
 to_name:
 mailer:
-  engine:
+  engine: mail
   smtp:
     server:
     port:
@@ -14,4 +14,4 @@ mailer:
   sendmail:
     bin: /usr/sbin/sendmail
 content_type: text/html
-debug: true
+debug: false

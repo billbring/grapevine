@@ -26,7 +26,7 @@ layout:
       -
         'sidebar 30':
           -
-            - custom-6361
+            - contentarray-9614
   call: {  }
   footer: {  }
   offcanvas: {  }
@@ -77,6 +77,8 @@ structure:
   sidebar:
     type: section
     subtype: aside
+    attributes:
+      class: ''
   container-main:
     attributes:
       boxed: ''
@@ -114,9 +116,19 @@ content:
       extra:
         -
           style: 'margin-bottom:0; padding-bottom:0'
-  custom-6361:
-    title: 'Right Sidebar'
+  contentarray-9614:
+    title: 'Grav Content'
     attributes:
-      html: '<p>We can quote on new IT equipment and consumable’s being very competitive on pricing as we have a great relationship with our suppliers, why not give us a try for a quote on any IT equipment.</p>'
+      article:
+        filter:
+          categories: business-sidebar
+        limit:
+          total: '1'
+          columns: '1'
+          start: '0'
+        sort:
+          orderby: default
+          ordering: asc
     block:
+      class: 'zero-padding left-align'
       variations: box-outline

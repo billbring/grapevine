@@ -77,7 +77,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   font-family: 'rockettheme-apps';
   font-style: normal;
   font-weight: normal;
-  src: url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.eot#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff2') format("woff2"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff') format("woff"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.ttf') format("truetype"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.svg#rockettheme-apps') format("svg");
+  src: url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.eot?58b88f98#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff2?58b88f98') format("woff2"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff?58b88f98') format("woff"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.ttf?58b88f98') format("truetype"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.svg?58b88f98#rockettheme-apps') format("svg");
 }
 /* line 4, user/themes/g5_helium/scss/helium/styles/_fonts.scss */
 i.fa-grav-spaceman, i.fa-grav-text, i.fa-grav-full, i.fa-grav-logo, i.fa-grav-symbol, i.fa-grav-logo-both, i.fa-grav-both, i.fa-gantry, i.fa-gantry-logo, i.fa-gantry-symbol, i.fa-gantry-logo-both, i.fa-gantry-both {
@@ -181,25 +181,25 @@ a:hover {
   font-family: "lato";
   font-style: normal;
   font-weight: 900;
-  src: url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.woff') format("woff"), url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.ttf') format("truetype"), url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.svg#lato') format("svg");
+  src: url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.eot?58b88f97#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.woff2?58b88f97') format("woff2"), url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.woff?58b88f97') format("woff"), url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.ttf?58b88f97') format("truetype"), url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.svg?58b88f97#lato') format("svg");
 }
 @font-face {
   font-family: "lato";
   font-style: normal;
   font-weight: 700;
-  src: url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff') format("woff"), url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.ttf') format("truetype"), url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.svg#lato') format("svg");
+  src: url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.eot?58b88f97#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff2?58b88f97') format("woff2"), url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff?58b88f97') format("woff"), url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.ttf?58b88f97') format("truetype"), url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.svg?58b88f97#lato') format("svg");
 }
 @font-face {
   font-family: "lato";
   font-style: normal;
   font-weight: 400;
-  src: url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff') format("woff"), url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.ttf') format("truetype"), url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.svg#lato') format("svg");
+  src: url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.eot?58b88f98#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff2?58b88f98') format("woff2"), url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff?58b88f98') format("woff"), url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.ttf?58b88f98') format("truetype"), url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.svg?58b88f98#lato') format("svg");
 }
 @font-face {
   font-family: "lato";
   font-style: normal;
   font-weight: 200;
-  src: url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.eot#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.woff2') format("woff2"), url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.woff') format("woff"), url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.ttf') format("truetype"), url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.svg#lato') format("svg");
+  src: url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.eot?58b88f98#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.woff2?58b88f98') format("woff2"), url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.woff?58b88f98') format("woff"), url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.ttf?58b88f98') format("truetype"), url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.svg?58b88f98#lato') format("svg");
 }
 /* line 5, user/themes/g5_helium/scss/helium/styles/_typography.scss */
 body {
@@ -1457,7 +1457,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding: 3rem 0;
   position: relative;
   z-index: 10;
-  background: url('../../../../../images/g5_helium/header/grapevine-it-support-home-user-01.jpg?58aac67b') center center no-repeat;
+  background: url('../../../../../images/g5_helium/header/grapevine-it-support-home-user-01.jpg') center center no-repeat;
   background-size: cover;
 }
 /* line 30, user/themes/g5_helium/scss/helium/sections/_header.scss */

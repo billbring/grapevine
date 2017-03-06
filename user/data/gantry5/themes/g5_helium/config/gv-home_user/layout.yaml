@@ -24,7 +24,7 @@ layout:
       -
         'sidebar 30':
           -
-            - custom-6361
+            - contentarray-9614
   call: {  }
   footer: {  }
   offcanvas: {  }
@@ -77,6 +77,8 @@ structure:
   sidebar:
     type: section
     subtype: aside
+    attributes:
+      class: ''
   container-main:
     attributes:
       boxed: ''
@@ -108,9 +110,19 @@ content:
       extra:
         -
           style: 'margin-bottom:0; padding-bottom:0'
-  custom-6361:
-    title: 'Right Sidebar'
+  contentarray-9614:
+    title: 'Grav Content'
     attributes:
-      html: '<p> A majority of IT issues can normally be resolved via <a href="live-support">remote connection</a> which is charged in 20 minute blocks, but if we can’t resolve it remotely we can arrange to come to you at our competitive hourly rate.</p>'
+      article:
+        filter:
+          categories: home-user-sidebar
+        limit:
+          total: '1'
+          columns: '1'
+          start: '0'
+        sort:
+          orderby: default
+          ordering: asc
     block:
+      class: 'zero-padding left-align'
       variations: box-outline

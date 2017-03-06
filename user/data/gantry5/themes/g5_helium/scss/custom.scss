@@ -23,6 +23,21 @@ svg#affiliates {fill:rgba(white, 0.8)}
 .left-align .callout{text-align: left;}
 .zero-padding .g-content {padding-top: 0; padding-bottom: 0;}
 
+#g-mainbar{padding-top: 0;
+  .g-content{padding-top:0; margin-top: 0;}
+}
+
+#g-sidebar {padding-top: 0.5rem;
+  .g-content{margin:0.625rem 1.5rem}
+}
+
+.g-grav-pages .g-content {margin-left: 0!important; margin-right: 0!important}
+
+.box-outline.moduletable, .box-outline.widget, .box-outline.g-outer-box, .box-outline > .g-content {
+  border: 1px solid $bright-green;
+}
+
+
 
 /*************
 **** FORM ****
@@ -224,16 +239,3 @@ address{font-style: normal;}
     @include transition(all 0.3s);
 }
 */
-
-
-#g-mainbar{padding-top: 0;
-  .g-content{padding-top:0; margin-top: 0;}
-}
-
-#g-sidebar {padding-top: 0.5rem;
-  .g-content{margin:0.625rem 1.5rem}
-}
-
-.box-outline.moduletable, .box-outline.widget, .box-outline.g-outer-box, .box-outline > .g-content {
-  border: 1px solid $bright-green;
-}
