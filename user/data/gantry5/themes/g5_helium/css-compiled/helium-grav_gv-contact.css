@@ -199,9 +199,12 @@
   margin-top: 2rem;
 }
 @supports not (flex-wrap: wrap) {
-  overflow: hidden;
+  /* line 25, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
+  .modular .features .feature-items {
+    overflow: hidden;
+  }
 }
-/* line 28, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
+/* line 30, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
 .modular .features .feature {
   display: block;
   float: left;
@@ -222,27 +225,27 @@
     width: 100%;
   }
 }
-/* line 44, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
+/* line 46, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
 .modular .features .feature i.fa {
   font-size: 2rem;
   color: #1bb3e9;
 }
-/* line 49, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
+/* line 51, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
 .modular .features .feature h4 {
   margin: 0;
   font-size: 1.1rem;
 }
-/* line 54, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
+/* line 56, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
 .modular .features .feature p {
   display: inline-block;
   font-size: 1rem;
   margin: 0.2rem 0 1rem;
 }
-/* line 61, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
+/* line 63, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
 .modular .features.big {
   text-align: center;
 }
-/* line 65, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
+/* line 67, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
 .modular .features.big .feature {
   width: 50%;
 }
@@ -252,25 +255,25 @@
     width: 100%;
   }
 }
-/* line 73, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
+/* line 75, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
 .modular .features.big i.fa {
   font-size: 3rem;
   float: left;
 }
-/* line 78, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
+/* line 80, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
 .modular .features.big .feature-content {
   padding-right: 2rem;
 }
-/* line 81, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
+/* line 83, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
 .modular .features.big .feature-content.icon-offset {
   margin-left: 5rem;
 }
-/* line 85, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
+/* line 87, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
 .modular .features.big .feature-content h4 {
   font-size: 1.3rem;
   text-align: left;
 }
-/* line 90, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
+/* line 92, user/plugins/gantry5/engines/nucleus/scss/grav/theme/modular/_features.scss */
 .modular .features.big .feature-content p {
   padding: 0;
   text-align: left;
@@ -338,7 +341,7 @@
 }
 /* line 5, user/plugins/gantry5/engines/nucleus/scss/grav/theme/_blog.scss */
 /* line 6, user/plugins/gantry5/engines/nucleus/scss/grav/theme/_blog.scss */
-.list-blog[class*=' cols-'] .list-blog-row {
+.list-blog.cols-1 .list-blog-row, .list-blog.cols-2 .list-blog-row, .list-blog.cols-3 .list-blog-row, .list-blog.cols-4 .list-blog-row, .list-blog.cols-5 .list-blog-row, .list-blog.cols-6 .list-blog-row {
   display: -webkit-box;
   display: -moz-box;
   display: box;
@@ -349,7 +352,7 @@
   margin: -0.938rem;
 }
 @media only all and (max-width: 47.938rem) {
-  .list-blog[class*=' cols-'] .list-blog-row {
+  .list-blog.cols-1 .list-blog-row, .list-blog.cols-2 .list-blog-row, .list-blog.cols-3 .list-blog-row, .list-blog.cols-4 .list-blog-row, .list-blog.cols-5 .list-blog-row, .list-blog.cols-6 .list-blog-row {
     -webkit-box-orient: vertical;
     -moz-box-orient: vertical;
     box-orient: vertical;
@@ -363,7 +366,7 @@
   }
 }
 /* line 12, user/plugins/gantry5/engines/nucleus/scss/grav/theme/_blog.scss */
-.list-blog[class*=' cols-'] .list-blog-row .list-item {
+.list-blog.cols-1 .list-blog-row .list-item, .list-blog.cols-2 .list-blog-row .list-item, .list-blog.cols-3 .list-blog-row .list-item, .list-blog.cols-4 .list-blog-row .list-item, .list-blog.cols-5 .list-blog-row .list-item, .list-blog.cols-6 .list-blog-row .list-item {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
   box-flex: 1;
@@ -378,7 +381,7 @@
   padding: 0.938rem;
 }
 @media only all and (max-width: 47.938rem) {
-  .list-blog[class*=' cols-'] .list-blog-row .list-item {
+  .list-blog.cols-1 .list-blog-row .list-item, .list-blog.cols-2 .list-blog-row .list-item, .list-blog.cols-3 .list-blog-row .list-item, .list-blog.cols-4 .list-blog-row .list-item, .list-blog.cols-5 .list-blog-row .list-item, .list-blog.cols-6 .list-blog-row .list-item {
     padding-top: 0;
     padding-bottom: 0;
     margin-bottom: 0;
