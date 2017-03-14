@@ -41,7 +41,7 @@ structure:
         - children
   header:
     inherit:
-      outline: gv-business
+      outline: default
       include:
         - attributes
         - children

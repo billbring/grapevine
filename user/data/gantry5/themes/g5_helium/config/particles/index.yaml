@@ -1,5 +1,5 @@
 name: particles
-timestamp: 1487628100
+timestamp: 1489529016
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -34,6 +34,9 @@ particles:
     menu-1561: Menu
   social:
     social-6869: Social
+  custom:
+    custom-1138: 'Custom HTML'
+    custom-5616: 'Custom HTML'
   spacer:
     spacer-9070: Spacer
   totop:
@@ -62,6 +65,8 @@ inherit:
     logo-9430: logo-9608
     menu-1561: menu-6409
     social-6869: social-3171
+    custom-1138: custom-7817
+    custom-5616: custom-9720
     position-position-1026: position-position-3949
     logo-5620: logo-9571
     spacer-9070: spacer-2500

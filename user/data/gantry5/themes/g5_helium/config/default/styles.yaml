@@ -13,7 +13,7 @@ navigation:
   text-color: '#ffffff'
 header:
   background: '#081120'
-  background-image: 'gantry-media://header/grapevine-it-education-02_02.jpg'
+  background-image: 'gantry-media://header/grapevine-it-support-education-04.jpg'
   background-overlay: disabled
   text-color: '#eceeef'
 intro:

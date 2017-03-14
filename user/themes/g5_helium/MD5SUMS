@@ -132,7 +132,7 @@ fonts/rockettheme-apps/rockettheme-apps.ttf	2185692f8168ab2fa54c0923be97f190
 fonts/rockettheme-apps/rockettheme-apps.woff	f1258374fedaa30401743337048a64bb
 fonts/rockettheme-apps/rockettheme-apps.woff2	0b76f0674592d3d4653e6524045e890e
 gantry/presets.yaml	0eea13393b55596c0487a798c59489f3
-gantry/theme.yaml	ca15408b727eca52a659d4c9104d9357
+gantry/theme.yaml	6ea3e9d33c9007da8fe5942130424c02
 images/above/img01.jpeg	45d1bc6fa1ac764f15b937a1e1e9a377
 images/above/img02.jpeg	c08f1ce863d7c69e1b73ce49f8b48416
 images/header/img01.jpg	fb3b9862ecc04e7206e246659e68f2af
@@ -147,7 +147,7 @@ images/styles/preset6.png	ca4e91b130ff7af13e53b6f1a6d0304c
 images/testimonials/face.jpg	118d004b5e5309af72459585aa1ff789
 images/testimonials/img01.jpg	272ee57acb3c0cc6d863f60001143da6
 js/juitabs.js	1e05f058abf0f4eaacc926a14e936d19
-js/owlcarousel.js	d3ebd0cc5c5db651f0b9d2f4550f8a9a
+js/owlcarousel.js	0aa8dbbc9beca33dd418f7b2a3c966b1
 layouts/_body_only.yaml	43dce3ad03bac74c337c6151f59bc94a
 layouts/_error.yaml	ade3d185bc08148bd7295c1e89f1e4b1
 layouts/_offline.yaml	c4f1d33f810601abdd4b5b62f9a9b3ed
@@ -214,6 +214,6 @@ includes/theme.php	ab4f31781afc5855a01ddebfc2ea1d0d
 g5_helium.yaml	c992c6c2943becc7320a32e402e7e4f8
 screenshot.jpg	8c441eee4bbff673b59e8f260c8c63b0
 thumbnail.jpg	2dc8a8f0a406139234d4c0bf9d151fe1
-blueprints.yaml	6ffa74aabd740aa58a97a82ecc08ba11
+blueprints.yaml	f8951c35a54cb4be3832e1167e3e8e74
 theme.php	fb6046bdf5a8465e8c688a5ffa5a3ab6
 MD5SUMS	d41d8cd98f00b204e9800998ecf8427e

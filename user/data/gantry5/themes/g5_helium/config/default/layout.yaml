@@ -9,8 +9,12 @@ layout:
       - 'logo-9608 23'
       - 'menu-6409 67'
       - 'social-3171 10'
-  /header/: {  }
-  /intro/: {  }
+  /header/:
+    -
+      - custom-7817
+  /intro/:
+    -
+      - custom-9720
   /features/: {  }
   /utility/: {  }
   /above/: {  }
@@ -51,6 +55,10 @@ structure:
     type: section
     attributes:
       boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'background:white; padding-bottom:0'
   features:
     type: section
     attributes:
@@ -81,6 +89,10 @@ structure:
   container-main:
     attributes:
       boxed: ''
+  call:
+    type: section
+    attributes:
+      boxed: ''
   footer:
     attributes:
       boxed: ''
@@ -99,6 +111,16 @@ content:
   social-3171:
     block:
       class: g-social-header
+  custom-7817:
+    title: 'Custom HTML'
+    attributes:
+      html: '&nbsp;'
+    block:
+      variations: center
+  custom-9720:
+    title: 'Custom HTML'
+    attributes:
+      html: "<h1 style=\"margin-bottom:0\">\n{% if page.header.heading %}\n{{ page.header.heading }}\n{% else %}\n{{ page.title }}\n{% endif %}\n</h1>"
   position-position-3949:
     title: Sidebar
     attributes:

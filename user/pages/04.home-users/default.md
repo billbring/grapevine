@@ -1,5 +1,6 @@
 ---
 title: 'Home Users'
+heading: 'Home User IT Support'
 ---
 
 Grapevine have long standing relationships with many home users across the East Midlands, we provide an ‘at home’ range of IT support for all your needs, please look at the services below. 

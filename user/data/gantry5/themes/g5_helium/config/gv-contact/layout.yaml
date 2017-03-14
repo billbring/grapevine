@@ -8,9 +8,7 @@ layout:
   /header/:
     -
       - custom-6833
-  /intro/:
-    -
-      - custom-7130
+  intro: {  }
   /features/: {  }
   /utility/: {  }
   /above/: {  }
@@ -46,12 +44,11 @@ structure:
       class: ''
   intro:
     type: section
-    attributes:
-      boxed: ''
-      class: ''
-      extra:
-        -
-          style: 'background:white; padding-bottom:0'
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
   features:
     type: section
     attributes:
@@ -107,14 +104,6 @@ content:
       html: '&nbsp;'
     block:
       variations: center
-  custom-7130:
-    title: 'Custom HTML'
-    attributes:
-      html: '<h1 style="margin-bottom:0">Contact</h1>'
-    block:
-      extra:
-        -
-          style: 'margin-bottom:0; padding-bottom:0'
   custom-7705:
     title: 'Custom HTML'
     attributes:

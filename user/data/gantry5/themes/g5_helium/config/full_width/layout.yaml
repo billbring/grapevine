@@ -22,7 +22,7 @@ layout:
             - custom-7890
       -
         'sidebar 25': {  }
-  call: {  }    
+  call: {  }
   footer: {  }
   offcanvas: {  }
 structure:
@@ -77,6 +77,8 @@ structure:
   container-main:
     attributes:
       boxed: ''
+  call:
+    type: section
   footer:
     inherit:
       outline: default

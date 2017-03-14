@@ -1,5 +1,6 @@
 ---
 title: Education
+heading: 'Education IT Support'
 ---
 
 At Grapevine we understand how critical IT is in the aiding of teaching & learning, schools of today are more reliant than ever for IT equipment to be working correctly in order to deliver lessons successfully, we are committed to continually make this happen.  We currently support many schools across Nottingham, Long Eaton, Derby, Mansfield and Rotherham.
@@ -12,11 +13,10 @@ Our friendly and outgoing staff are DBS checked and have a great working relatio
 * Network design and implementation \ support of all existing structured cabling and network structure
 * Wireless network design and installation \ support of all existing wireless networks
 * Online backup
-* Audit of system and hardware
+* Full inventory \ Audit of system and hardware
 * Unlimited Remote support from as little as £9 Per month per computer (Inc unlimited telephone support)
 * Full server support \ installation
-* 24/7 Network monitoring (via 3rd party software)
-* Cat 5 \ Fibre optic structured cabling
+* 24/7 Network monitoring
+* Cat 5 \ Cat 6 - Fibre optic structured cabling
 * Telephone systems
-* Website hosting
-* Reduced hourly onsite support rates
+* Website Design \ hosting - Email Hosting

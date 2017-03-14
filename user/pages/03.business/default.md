@@ -1,5 +1,6 @@
 ---
 title: Business
+heading: 'Business IT Support'
 ---
 
 Grapevine knows how important technology is to the running and success of your business in this fast moving world. We’ve made our IT services simple and easy to understand with no long term contracts.  We currently provide installations and support to a wide variety of business types within East Midlands

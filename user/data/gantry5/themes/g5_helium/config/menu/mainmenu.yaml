@@ -5,6 +5,7 @@ ordering:
   education: ''
   business: ''
   home-users: ''
+  testimonials: ''
   contact: ''
   live-support: ''
 items:
@@ -18,6 +19,11 @@ items:
     enabled: true
     anchor_class: ''
   home-users:
+    enabled: '1'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+  testimonials:
     enabled: true
     anchor_class: ''
   contact:

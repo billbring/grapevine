@@ -136,6 +136,8 @@ structure:
   container-main:
     attributes:
       boxed: ''
+  call:
+    type: section
   footer:
     inherit:
       outline: default

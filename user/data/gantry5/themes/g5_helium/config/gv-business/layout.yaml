@@ -5,12 +5,8 @@ preset:
   timestamp: 1468340932
 layout:
   navigation: {  }
-  /header/:
-    -
-      - custom-6833
-  /intro/:
-    -
-      - custom-7130
+  header: {  }
+  intro: {  }
   /features/: {  }
   /utility/: {  }
   /above/: {  }
@@ -39,17 +35,18 @@ structure:
         - attributes
         - children
   header:
-    attributes:
-      boxed: ''
-      class: ''
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
   intro:
     type: section
-    attributes:
-      boxed: ''
-      class: ''
-      extra:
-        -
-          style: 'background:white; padding-bottom:0'
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
   features:
     type: section
     attributes:
@@ -102,20 +99,6 @@ structure:
         - children
         - attributes
 content:
-  custom-6833:
-    title: Header
-    attributes:
-      html: '&nbsp;'
-    block:
-      variations: center
-  custom-7130:
-    title: 'Custom HTML'
-    attributes:
-      html: '<h1 style="margin-bottom:0">Business  IT Support</h1>'
-    block:
-      extra:
-        -
-          style: 'margin-bottom:0; padding-bottom:0'
   contentarray-9614:
     title: 'Grav Content'
     attributes:
