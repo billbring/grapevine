@@ -1,12 +1,11 @@
 name: block_variations
-timestamp: 1489529016
+timestamp: 1489601477
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
   name: default
   timestamp: 1468340932
-positions:
-  sidebar: Sidebar
+positions: {  }
 sections:
   navigation: Navigation
   intro: Intro
@@ -49,6 +48,7 @@ particles:
     custom-2883: 'Title Outline, Centered Title'
     custom-7014: 'Custom HTML'
     custom-3560: 'Custom HTML'
+    custom-5828: 'Page Sidebar'
   logo:
     logo-6485: 'Logo / Image'
     logo-7038: 'Logo / Image'
@@ -56,8 +56,6 @@ particles:
     menu-5190: Menu
   social:
     social-5921: Social
-  position:
-    position-position-7023: Sidebar
   spacer:
     spacer-9805: Spacer
   totop:
@@ -79,7 +77,6 @@ inherit:
     testimonials: testimonials
     expanded: expanded
     mainbar: mainbar
-    system-content-1948: system-content-1587
     sidebar: sidebar
     footer: footer
     offcanvas: offcanvas
@@ -88,7 +85,7 @@ inherit:
     social-5921: social-3171
     custom-7014: custom-7817
     custom-3560: custom-9720
-    position-position-7023: position-position-3949
+    custom-5828: custom-2104
     logo-7038: logo-9571
     spacer-9805: spacer-2500
     totop-3124: totop-8670

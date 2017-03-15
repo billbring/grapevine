@@ -1,12 +1,11 @@
 name: full_width
-timestamp: 1489529016
+timestamp: 1489601477
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
   name: default
   timestamp: 1468340932
-positions:
-  sidebar: Sidebar
+positions: {  }
 sections:
   navigation: Navigation
   intro: Intro
@@ -25,6 +24,7 @@ particles:
   custom:
     custom-9029: Header
     custom-7890: Content
+    custom-7496: 'Page Sidebar'
   logo:
     logo-1212: 'Logo / Image'
     logo-1291: 'Logo / Image'
@@ -32,8 +32,6 @@ particles:
     menu-6059: Menu
   social:
     social-8619: Social
-  position:
-    position-position-4882: Sidebar
   spacer:
     spacer-4925: Spacer
   totop:
@@ -53,7 +51,7 @@ inherit:
     logo-1212: logo-9608
     menu-6059: menu-6409
     social-8619: social-3171
-    position-position-4882: position-position-3949
+    custom-7496: custom-2104
     logo-1291: logo-9571
     spacer-4925: spacer-2500
     totop-1176: totop-8670

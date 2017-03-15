@@ -25,11 +25,11 @@ layout:
       -
         'mainbar 75':
           -
-            - system-content-1587
+            - custom-4149
       -
         'sidebar 25':
           -
-            - position-position-3949
+            - custom-2104
   /call/: {  }
   /footer/:
     -
@@ -121,10 +121,17 @@ content:
     title: 'Custom HTML'
     attributes:
       html: "<h1 style=\"margin-bottom:0\">\n{% if page.header.heading %}\n{{ page.header.heading }}\n{% else %}\n{{ page.title }}\n{% endif %}\n</h1>"
-  position-position-3949:
-    title: Sidebar
+  custom-4149:
+    title: 'Page Content'
     attributes:
-      key: sidebar
+      html: "{% set content = page.content|slice(page.summary|length) %}\n{{ content|raw }}"
+  custom-2104:
+    title: 'Page Sidebar'
+    attributes:
+      html: '{{ page.summary()|raw }}'
+    block:
+      class: 'zero-padding left-align'
+      variations: box-outline
   logo-9571:
     title: 'Logo / Image'
   totop-8670:

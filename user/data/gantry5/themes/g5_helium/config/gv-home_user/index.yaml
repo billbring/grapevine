@@ -1,5 +1,5 @@
 name: gv-home_user
-timestamp: 1489529016
+timestamp: 1489601477
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -21,13 +21,6 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
-  content:
-    system-content-1618: 'Page Content'
-  spacer:
-    spacer-9304: Spacer
-    spacer-8766: Spacer
-  contentarray:
-    contentarray-9614: 'Grav Content'
   logo:
     logo-1600: 'Logo / Image'
     logo-1663: 'Logo / Image'
@@ -38,7 +31,11 @@ particles:
   custom:
     custom-9382: 'Custom HTML'
     custom-4957: 'Custom HTML'
+    custom-6433: 'Page Content'
+    custom-2687: 'Page Sidebar'
     custom-4184: 'Call to action'
+  spacer:
+    spacer-8766: Spacer
   totop:
     totop-6678: 'To Top'
   copyright:
@@ -52,6 +49,8 @@ inherit:
     navigation: navigation
     header: header
     intro: intro
+    mainbar: mainbar
+    sidebar: sidebar
     footer: footer
     offcanvas: offcanvas
     logo-1600: logo-9608
@@ -59,6 +58,8 @@ inherit:
     social-2905: social-3171
     custom-9382: custom-7817
     custom-4957: custom-9720
+    custom-6433: custom-4149
+    custom-2687: custom-2104
     logo-1663: logo-9571
     spacer-8766: spacer-2500
     totop-6678: totop-8670
