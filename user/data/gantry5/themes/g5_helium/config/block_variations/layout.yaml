@@ -153,6 +153,13 @@ structure:
         - block
         - children
 content:
+  system-content-1948:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: system-content-1587
   custom-4778:
     title: 'Box 1'
     attributes:

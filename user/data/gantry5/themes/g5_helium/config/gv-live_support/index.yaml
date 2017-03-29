@@ -1,5 +1,5 @@
 name: gv-live_support
-timestamp: 1489601477
+timestamp: 1489529016
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -54,6 +54,7 @@ inherit:
   default:
     navigation: navigation
     header: header
+    system-content-9616: system-content-1587
     footer: footer
     offcanvas: offcanvas
     logo-9268: logo-9608

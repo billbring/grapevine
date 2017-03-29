@@ -98,6 +98,13 @@ structure:
         - attributes
         - children
 content:
+  system-content-9616:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: system-content-1587
   custom-2004:
     title: 'Custom HTML'
     attributes:

@@ -1,11 +1,12 @@
 name: default
-timestamp: 1489601478
+timestamp: 1489529017
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
   name: default
   timestamp: 1475608600
-positions: {  }
+positions:
+  sidebar: Sidebar
 sections:
   navigation: Navigation
   intro: Intro
@@ -31,8 +32,10 @@ particles:
   custom:
     custom-7817: 'Custom HTML'
     custom-9720: 'Custom HTML'
-    custom-4149: 'Page Content'
-    custom-2104: 'Page Sidebar'
+  content:
+    system-content-1587: 'Page Content'
+  position:
+    position-position-3949: Sidebar
   spacer:
     spacer-2500: Spacer
   totop:

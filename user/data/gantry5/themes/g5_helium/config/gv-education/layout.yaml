@@ -15,9 +15,13 @@ layout:
   /container-main/:
     -
       -
-        'mainbar 70': {  }
+        'mainbar 70':
+          -
+            - system-content-4318
       -
-        'sidebar 30': {  }
+        'sidebar 30':
+          -
+            - contentarray-9614
   call: {  }
   footer: {  }
   offcanvas: {  }
@@ -66,26 +70,14 @@ structure:
   mainbar:
     type: section
     subtype: main
-    inherit:
-      outline: default
-      include:
-        - attributes
-        - block
-        - children
   sidebar:
     type: section
     subtype: aside
-    inherit:
-      outline: default
-      include:
-        - attributes
-        - block
-        - children
+    attributes:
+      class: ''
   container-main:
     attributes:
       boxed: ''
-      class: ''
-      extra: {  }
   call:
     type: section
     inherit:
@@ -105,3 +97,20 @@ structure:
       include:
         - children
         - attributes
+content:
+  contentarray-9614:
+    title: 'Grav Content'
+    attributes:
+      article:
+        filter:
+          categories: education-sidebar
+        limit:
+          total: '1'
+          columns: '1'
+          start: '0'
+        sort:
+          orderby: default
+          ordering: asc
+    block:
+      class: 'zero-padding left-align'
+      variations: box-outline

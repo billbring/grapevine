@@ -123,6 +123,13 @@ structure:
         - block
         - children
 content:
+  system-content-5435:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+      particle: system-content-1587
   position-position-5639:
     title: Mainbar
     attributes:
