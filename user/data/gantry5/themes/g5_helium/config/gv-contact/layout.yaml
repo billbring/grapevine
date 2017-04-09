@@ -13,9 +13,7 @@ layout:
   /utility/: {  }
   /above/: {  }
   /testimonials/: {  }
-  /expanded/:
-    -
-      - custom-7705
+  /expanded/: {  }
   /container-main/:
     -
       -
@@ -104,11 +102,6 @@ content:
       html: '&nbsp;'
     block:
       variations: center
-  custom-7705:
-    title: 'Custom HTML'
-    attributes:
-      enabled: 0
-      html: "<div class=\"container\">\n    <div id=\"map_container\"></div>\n    <div id=\"map\"></div>\n</div>\t"
   contentarray-9614:
     title: 'Grav Content'
     attributes:

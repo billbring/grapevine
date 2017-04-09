@@ -1,12 +1,11 @@
 name: gv-live_support
-timestamp: 1491751170
+timestamp: 1491776614
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
   name: default
   timestamp: 1475608600
-positions:
-  sidebar: Sidebar
+positions: {  }
 sections:
   navigation: Navigation
   intro: Intro
@@ -33,8 +32,6 @@ particles:
   custom:
     custom-2004: 'Custom HTML'
     custom-3785: 'Custom HTML'
-  position:
-    position-position-3949: Sidebar
   logo:
     logo-9268: 'Logo / Image'
     logo-1243: 'Logo / Image'
@@ -54,7 +51,6 @@ inherit:
   default:
     navigation: navigation
     header: header
-    system-content-9616: system-content-1587
     footer: footer
     offcanvas: offcanvas
     logo-9268: logo-9608

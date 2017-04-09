@@ -15,16 +15,9 @@ layout:
   /container-main/:
     -
       -
-        'mainbar 70':
-          -
-            - 'system-content-5712 90'
-            - 'spacer-2947 10'
+        'mainbar 70': {  }
       -
-        'sidebar 30':
-          -
-            - contentarray-9614
-          -
-            - custom-6261
+        'sidebar 30': {  }
   call: {  }
   footer: {  }
   offcanvas: {  }
@@ -73,18 +66,28 @@ structure:
   mainbar:
     type: section
     subtype: main
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
   sidebar:
     type: section
     subtype: aside
-    attributes:
-      class: ''
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - block
+        - children
   container-main:
     attributes:
       boxed: ''
   call:
     type: section
     inherit:
-      outline: gv-home
+      outline: default
       include:
         - attributes
         - children
@@ -100,24 +103,3 @@ structure:
       include:
         - children
         - attributes
-content:
-  contentarray-9614:
-    title: 'Grav Content'
-    attributes:
-      article:
-        filter:
-          categories: business-sidebar
-        limit:
-          total: '1'
-          columns: '1'
-          start: '0'
-        sort:
-          orderby: default
-          ordering: asc
-    block:
-      class: 'zero-padding left-align'
-      variations: box-outline
-  custom-6261:
-    title: 'Custom HTML'
-    attributes:
-      html: gtrgrtt

@@ -11,7 +11,7 @@ layout:
         - owlcarousel-2455
   /intro/:
     -
-      - contentarray-9347
+      - system-content-5069
   /features/:
     -
       - custom-3119
@@ -27,19 +27,15 @@ layout:
       - contentcubes-7850
   /testimonials/:
     -
-      - custom-7658
-  /expanded/:
-    -
-      - contentarray-7739
+      block-8620: {  }
+  /expanded/: {  }
   /container-main/:
     -
       -
         'mainbar 75': {  }
       -
         'sidebar 25': {  }
-  /call/:
-    -
-      - custom-9680
+  call: {  }
   footer: {  }
   offcanvas: {  }
 structure:
@@ -74,6 +70,9 @@ structure:
     type: section
     attributes:
       boxed: ''
+  block-8620:
+    attributes:
+      variations: center
   testimonials:
     type: section
     attributes:
@@ -97,9 +96,11 @@ structure:
       boxed: ''
   call:
     type: section
-    attributes:
-      boxed: ''
-      class: ''
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
   footer:
     inherit:
       outline: default
@@ -157,21 +158,9 @@ content:
           linktext: ''
           buttonclass: ''
           name: 'Item 5'
-  contentarray-9347:
-    title: 'Header text'
-    attributes:
-      article:
-        filter:
-          categories: intro
-        limit:
-          total: '2'
-          columns: '2'
-          start: '0'
-        sort:
-          orderby: default
-          ordering: asc
-      css:
-        class: fp-intro
+  system-content-5069:
+    block:
+      class: 'fp-intro center'
   custom-3119:
     title: Features
     attributes:
@@ -222,31 +211,3 @@ content:
           buttonclass: ''
           buttontarget: _self
           name: wifi
-  custom-7658:
-    title: 'Customer Testimonials'
-    attributes:
-      html: "<div class=\"fp-testimonials\">\n    <blockquote>\n        <p class=\"h3\">\"We have used Grapevine Network Management Ltd for many years,  both for business and personal use. They have always responded very quickly and with the upmost efficiency. I would highly recommend them.\"</p>\n        <footer>Helen, Tomkins Florists</footer>\n    </blockquote>\n</div>"
-    block:
-      variations: center
-  contentarray-7739:
-    title: 'Footer text'
-    attributes:
-      enabled: 0
-      article:
-        filter:
-          categories: footer
-        limit:
-          total: '2'
-          columns: '2'
-          start: '0'
-        sort:
-          orderby: default
-          ordering: asc
-      css:
-        class: two-column
-  custom-9680:
-    title: 'Call to action'
-    attributes:
-      html: "<h2>Need Support?</h2>\n<p>If you need IT help or support, get in touch with our expert technicians by calling <a href=\"tel:01159788180\">0115 978 8180</a><br> or click the button to fill out our quick online enquiry form.</p>\n<a href=\"contact\" class=\"button button-large\">Get in Touch</a>\n"
-    block:
-      variations: center

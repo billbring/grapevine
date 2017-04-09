@@ -1,5 +1,5 @@
 name: gv-home
-timestamp: 1491751170
+timestamp: 1491776698
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -21,23 +21,6 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
-  owlcarousel:
-    owlcarousel-2455: Carousel
-  contentarray:
-    contentarray-9347: 'Header text'
-    contentarray-7739: 'Footer text'
-  custom:
-    custom-3119: Features
-    custom-3334: 'Official suppliers of...'
-    custom-4501: 'Affiliate Logos'
-    custom-7658: 'Customer Testimonials'
-    custom-9680: 'Call to action'
-  spacer:
-    spacer-8852: Spacer
-    spacer-3366: Spacer
-    spacer-4963: Spacer
-  contentcubes:
-    contentcubes-7850: 'Content Cubes'
   logo:
     logo-4206: 'Logo / Image'
     logo-9842: 'Logo / Image'
@@ -45,6 +28,21 @@ particles:
     menu-1477: Menu
   social:
     social-8780: Social
+  owlcarousel:
+    owlcarousel-2455: Carousel
+  content:
+    system-content-5069: 'Page Content'
+  custom:
+    custom-3119: Features
+    custom-3334: 'Official suppliers of...'
+    custom-4501: 'Affiliate Logos'
+    custom-6015: 'Call to action'
+  spacer:
+    spacer-8852: Spacer
+    spacer-3366: Spacer
+    spacer-4963: Spacer
+  contentcubes:
+    contentcubes-7850: 'Content Cubes'
   totop:
     totop-6437: 'To Top'
   copyright:
@@ -56,14 +54,16 @@ particles:
 inherit:
   default:
     navigation: navigation
-    footer: footer
-    offcanvas: offcanvas
     logo-4206: logo-9608
     menu-1477: menu-6409
     social-8780: social-3171
+    call: call
+    custom-6015: custom-7062
+    footer: footer
     logo-9842: logo-9571
     spacer-4963: spacer-2500
     totop-6437: totop-8670
     copyright-7844: copyright-1736
     horizontalmenu-9495: horizontalmenu-1158
+    offcanvas: offcanvas
     mobile-menu-4725: mobile-menu-5697

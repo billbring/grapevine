@@ -25,12 +25,15 @@ layout:
       -
         'mainbar 75':
           -
-            - system-content-1587
+            - 'custom-7687 90'
+            - 'spacer-9489 10'
       -
         'sidebar 25':
           -
-            - position-position-3949
-  /call/: {  }
+            - custom-5581
+  /call/:
+    -
+      - custom-7062
   /footer/:
     -
       - 'logo-9571 21'
@@ -121,10 +124,23 @@ content:
     title: 'Custom HTML'
     attributes:
       html: "<h1 style=\"margin-bottom:0\">\n{% if page.header.heading %}\n{{ page.header.heading }}\n{% else %}\n{{ page.title }}\n{% endif %}\n</h1>"
-  position-position-3949:
-    title: Sidebar
+  custom-7687:
+    title: 'Custom HTML'
     attributes:
-      key: sidebar
+      html: "{% set content = page.content|slice(page.summary|length) %}\n{{ content|raw }}"
+  custom-5581:
+    title: 'Custom HTML'
+    attributes:
+      html: '{{ page.summary|raw }}'
+    block:
+      class: 'zero-padding left-align'
+      variations: box-outline
+  custom-7062:
+    title: 'Call to action'
+    attributes:
+      html: "<h2>Need Support?</h2>\n<p>If you need IT help or support, get in touch with our expert technicians by calling <a href=\"tel:01159788180\">0115 978 8180</a><br> or click the button to fill out our quick online enquiry form.</p>\n<a href=\"contact\" class=\"button button-large\">Get in Touch</a>\n"
+    block:
+      class: center
   logo-9571:
     title: 'Logo / Image'
   totop-8670:

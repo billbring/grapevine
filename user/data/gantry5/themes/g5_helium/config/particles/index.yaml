@@ -1,5 +1,5 @@
 name: particles
-timestamp: 1490822630
+timestamp: 1491776614
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -7,7 +7,6 @@ preset:
   timestamp: 1475608600
 positions:
   mainbar: Mainbar
-  sidebar: Sidebar
 sections:
   navigation: Navigation
   intro: Intro
@@ -26,7 +25,6 @@ particles:
     system-content-5435: 'Page Content'
   position:
     position-position-5639: Mainbar
-    position-position-1026: Sidebar
   logo:
     logo-9430: 'Logo / Image'
     logo-5620: 'Logo / Image'
@@ -37,6 +35,7 @@ particles:
   custom:
     custom-1138: 'Custom HTML'
     custom-5616: 'Custom HTML'
+    custom-6225: 'Custom HTML'
   spacer:
     spacer-9070: Spacer
   totop:
@@ -58,7 +57,6 @@ inherit:
     testimonials: testimonials
     expanded: expanded
     mainbar: mainbar
-    system-content-5435: system-content-1587
     sidebar: sidebar
     footer: footer
     offcanvas: offcanvas
@@ -67,7 +65,7 @@ inherit:
     social-6869: social-3171
     custom-1138: custom-7817
     custom-5616: custom-9720
-    position-position-1026: position-position-3949
+    custom-6225: custom-5581
     logo-5620: logo-9571
     spacer-9070: spacer-2500
     totop-5818: totop-8670
