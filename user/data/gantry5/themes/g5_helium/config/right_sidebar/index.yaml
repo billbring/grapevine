@@ -1,0 +1,58 @@
+name: right_sidebar
+timestamp: 1489529016
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1468340932
+positions: {  }
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  header: Header
+  mainbar: Mainbar
+  sidebar: Sidebar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  custom:
+    custom-6833: Header
+    custom-5490: Content
+    custom-6361: 'Right Sidebar'
+    custom-9374: 'Flexible Layouts'
+  logo:
+    logo-9853: 'Logo / Image'
+    logo-1301: 'Logo / Image'
+  menu:
+    menu-2236: Menu
+  social:
+    social-5426: Social
+  spacer:
+    spacer-1903: Spacer
+  totop:
+    totop-8198: 'To Top'
+  copyright:
+    copyright-2232: Copyright
+  horizontalmenu:
+    horizontalmenu-4415: 'Horizontal Menu'
+  mobile-menu:
+    mobile-menu-7714: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    footer: footer
+    offcanvas: offcanvas
+    logo-9853: logo-9608
+    menu-2236: menu-6409
+    social-5426: social-3171
+    logo-1301: logo-9571
+    spacer-1903: spacer-2500
+    totop-8198: totop-8670
+    copyright-2232: copyright-1736
+    horizontalmenu-4415: horizontalmenu-1158
+    mobile-menu-7714: mobile-menu-5697

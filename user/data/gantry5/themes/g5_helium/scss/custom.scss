@@ -1,0 +1,241 @@
+@import "dependencies";
+$bright-green: #9acd32;
+$gv-light: #6b833c;
+$gv-dark: #356535;
+$blue-accent: #0070b9;
+
+
+//Header Telephone Link
+#g-header a {color: inherit; text-decoration: none; font-weight: 300;}
+
+
+//SVG Logo Colours
+ svg#grapevine {
+  max-height: 90px; display: block; margin: auto;
+  .gv{fill:white} .nm{fill:white} .icon{fill:$gv-light}
+}
+
+svg#affiliates {fill:rgba(white, 0.8)}
+
+
+//Override for 'callout' class
+.callout {padding: 0; background: transparent;}
+.left-align .callout{text-align: left;}
+.zero-padding .g-content {padding-top: 0; padding-bottom: 0;}
+
+#g-mainbar{padding-top: 0;
+  .g-content{padding-top:0; margin-top: 0;}
+}
+
+#g-sidebar {padding-top: 0.5rem;
+  .g-content{margin:0.625rem 1.5rem}
+}
+
+.g-grav-pages .g-content {margin-left: 0!important; margin-right: 0!important}
+
+.box-outline.moduletable, .box-outline.widget, .box-outline.g-outer-box, .box-outline > .g-content {
+  border: 1px solid $bright-green;
+}
+
+
+
+/*************
+**** FORM ****
+*************/
+.button {background-color: $blue-accent;}
+.form-field {margin-bottom: 1.3rem;}
+
+
+/**********************
+**** CONTENT CUBES ****
+**********************/
+.g-contentcubes .cube-items-wrapper .cube-content-wrapper .item-title a.item-link {font-size: 1.5rem; font-weight: 300;
+  .item-link-text {font-size: 1.2rem; font-weight: 100;}
+}
+
+
+/*****************
+**** FEATURES ****
+*****************/
+#g-features .fa {color: $accent-color-2}
+
+
+/*******************
+**** TYPOGRAPHY ****
+*******************/
+body {
+    font-family: get-font-family($font-family-default);
+    font-weight: 300;
+    @include breakpoint(no-mobile) {font-size: 1.125rem;}
+}
+
+// Headings
+h1, h2, h3, h4, h5 {font-family: get-font-family($font-family-default); font-weight: $font-weight-regular;}
+
+h1 {font-weight: $font-weight-bold; line-height: 1.4}
+
+h4 {font-size: $h4-font-size;}
+
+.g-home-particles.g-helium-style .fp-features .g-block .card .card-block .card-title {font-weight: 400;}
+
+//Intro paragraph overrides
+#g-intro#g-intro {padding-top:0; padding-bottom:2rem;}
+.fp-intro p {font-size: 1.4rem;
+  @include breakpoint(large-mobile-range) {font-size: 1.2rem;}
+  @include breakpoint(small-mobile-range) {font-size: 1rem;}
+}
+
+a {
+    color: $base-text-color; font-weight: 400;
+    @include transition(all 0.2s);
+    &:hover {color: lighten($base-text-color,30);}
+}
+
+address{font-style: normal;}
+
+.two-column div.callout {
+  @include breakpoint(desktop-only) {
+    p {text-align: left; margin: 0}
+    h2 {column-span: all; padding-bottom: 2rem;}
+    column-count: 2;
+    column-gap: 10.5rem;
+    column-rule: 1px solid rgba($base-text-color, 0.2);
+  }
+  @include breakpoint(no-desktop) {
+    //p {text-align: center; margin-top: 0}
+    h2 {text-align: left; padding-bottom: 0.5rem;}
+    column-count: 1;
+    column-gap: 0;
+    column-rule: none;
+  }
+}
+
+//map marker text
+.outline-gv-contact #g-header .gm-style-iw{color:$base-text-color; line-height: $core-line-height - 0.3;}
+
+//call to action
+#g-call {
+  background: $bright-green;
+  p{font-size: 1.4rem; margin-bottom: 3rem;}
+  h2{font-size: 2.4rem;}
+  .button {
+      background: $white;
+      color: $base-text-color;
+      border: 1px solid transparent;
+      margin-bottom: 2rem;
+      @include transition(all 0.2s);
+
+      &:hover, &:active, &:focus {
+          background: darken($white, 10%);
+          color: $base-text-color;
+      }
+  }
+}
+
+
+
+/*****************
+**** FOOTER ****
+*****************/
+#g-totop {font-weight: 400;}
+.g-horizontalmenu, .g-horizontalmenu a[href^="tel:"]  {font-weight: 400; font-size: 1.6rem; padding-top: 0}
+
+
+/*********************
+**** PAGE HEADERS ****
+*********************/
+.outline-gv-home #g-header {min-height: 10rem}
+#g-header {min-height: 24rem}
+
+//Homepage (Owl Carousell) top Header background colour
+.g-home-particles {
+    &.g-helium-style {
+        #g-navigation {
+            @include breakpoint(no-mobile) {background: rgba($navigation-background, 0.5);}
+}  }  }
+
+//Menu alignment and Live Support button styling
+.menu .g-content {padding-left: 0; padding-right: 0; margin-left: 0; margin-right: 0;}
+.menu .btn-support {background: $blue-accent; border-radius: 6px; padding:5px 15px 4px 15px;}
+.g-social-header .g-content {padding-left: 0; padding-right: 0; margin-left: 0; margin-right: 0;}
+
+
+/*****************
+**** CAROUSEL ****
+*****************/
+.owl-stage-outer {max-height: 90vh}
+
+.g-owlcarousel-item-title {
+    font-family: get-font-family($font-family-default);
+    font-size: 4rem;
+    line-height: 4rem;
+    font-weight: 100;
+    margin: ($content-margin * 2) ($content-margin * 2) $content-margin;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+    @include breakpoint(desktop-range) {font-size: 3.5rem; line-height: 3.5rem;}
+    @include breakpoint(tablet-range) {font-size: 3rem; line-height: 3rem; margin-top: ($content-margin * 5);}
+    @include breakpoint(large-mobile-range) {margin-top: 0; font-size: 2.2rem; line-height: 2.2rem;}
+    @include breakpoint(small-mobile-range) {margin-top: 0; font-size: 1.5rem; line-height: 1.5rem;}
+}
+
+.g-owlcarousel-item-desc {
+    font-size: 2.5rem;
+    line-height: $core-line-height - 0.5;
+    font-weight: 100 !important;
+    padding-bottom: $content-padding * 1.5;
+    margin-top: 0;
+    margin-bottom: $content-margin;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+    @include breakpoint(desktop-range) {font-size: 2.2rem; line-height: 2.2rem;}
+    @include breakpoint(tablet-range) {font-size: 2rem; line-height: 2rem; padding-bottom: 0;}
+    @include breakpoint(mobile-only) {font-size: 1.1rem; line-height: 1.875rem; padding-bottom: 0; display: block;}
+}
+
+.g-owlcarousel-item-button {
+    @include breakpoint(tablet-range) {padding: 1rem 2.625rem; font-size: $core-font-size - 0.4;}
+    @include breakpoint(mobile-only) {display: none;}
+}
+
+
+/*********************
+**** FIXED HEADER ****
+********************
+.headroom {
+    @include transition(transform 200ms linear);
+}
+.headroom--pinned {
+    @include transform(translateY(0%));
+}
+.headroom--unpinned {
+    @include transform(translateY(-100%));
+}
+
+#g-navigation.headroom--not-top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1001;
+    left: 0;
+}
+
+.g-offcanvas-toggle.headroom--not-top {
+    position: fixed;
+    z-index: 1002;
+    &.headroom--unpinned {
+        top: 0;
+    }
+}
+
+.g-offcanvas-open {
+    #g-navigation.headroom--not-top {
+        left: $offcanvas-width;
+    }
+    .g-offcanvas-toggle.headroom--not-top {
+        left: $offcanvas-width + 0.7rem;
+    }
+}
+
+#g-navigation.headroom--not-top, .g-offcanvas-toggle.headroom--not-top {
+    @include transition(all 0.3s);
+}
+*/

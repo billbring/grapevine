@@ -1,0 +1,13 @@
+meta: {  }
+head_bottom: ''
+atoms:
+  -
+    id: assets-1966
+    type: assets
+    title: 'Custom CSS / JS'
+    attributes:
+      enabled: '0'
+      css: {  }
+      javascript:
+        - { location: //cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js, inline: '', in_footer: '1', extra: {  }, priority: '0', name: headroom.min.js }
+        - { location: '', inline: "// grab an element\nvar myElement = document.querySelector(\"#g-navigation\");\n// construct an instance of Headroom, passing the element\nvar headroom  = new Headroom(myElement);\n// initialise\nheadroom.init();\n\n// grab an element\nvar myElement = document.querySelector(\".g-offcanvas-toggle\");\n// construct an instance of Headroom, passing the element\nvar headroom  = new Headroom(myElement);\n// initialise\nheadroom.init();\n", in_footer: '1', extra: {  }, priority: '0', name: 'target headroom' }

@@ -1,0 +1,70 @@
+name: gv-home_user
+timestamp: 1489529016
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1468340932
+positions: {  }
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  call: Call
+  header: Header
+  mainbar: Mainbar
+  sidebar: Sidebar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  content:
+    system-content-1618: 'Page Content'
+  spacer:
+    spacer-9304: Spacer
+    spacer-8766: Spacer
+  contentarray:
+    contentarray-9614: 'Grav Content'
+  logo:
+    logo-1600: 'Logo / Image'
+    logo-1663: 'Logo / Image'
+  menu:
+    menu-7678: Menu
+  social:
+    social-2905: Social
+  custom:
+    custom-9382: 'Custom HTML'
+    custom-4957: 'Custom HTML'
+    custom-4184: 'Call to action'
+  totop:
+    totop-6678: 'To Top'
+  copyright:
+    copyright-8863: Copyright
+  horizontalmenu:
+    horizontalmenu-2845: 'Horizontal Menu'
+  mobile-menu:
+    mobile-menu-6320: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    header: header
+    intro: intro
+    footer: footer
+    offcanvas: offcanvas
+    logo-1600: logo-9608
+    menu-7678: menu-6409
+    social-2905: social-3171
+    custom-9382: custom-7817
+    custom-4957: custom-9720
+    logo-1663: logo-9571
+    spacer-8766: spacer-2500
+    totop-6678: totop-8670
+    copyright-8863: copyright-1736
+    horizontalmenu-2845: horizontalmenu-1158
+    mobile-menu-6320: mobile-menu-5697
+  gv-home:
+    call: call
+    custom-4184: custom-9680

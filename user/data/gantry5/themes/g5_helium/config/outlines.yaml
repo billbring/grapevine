@@ -1,0 +1,57 @@
+default:
+  title: Default
+  preset: default
+_error:
+  title: Error
+  preset: _error
+_offline:
+  title: Offline
+  preset: _offline
+_body_only:
+  title: 'Body Only'
+  preset: _body_only
+default-1:
+  id: 11
+  title: Default
+  home: true
+  preset: default
+home_-_particles:
+  id: 12
+  title: 'Home - Particles'
+  preset: home_-_particles
+particles:
+  id: 13
+  title: Particles
+  preset: default
+block_variations:
+  id: 14
+  title: 'Block Variations'
+  preset: default
+full_width:
+  id: 15
+  title: 'Full Width'
+  preset: default
+left_sidebar:
+  id: 16
+  title: 'Left Sidebar'
+  preset: default
+right_sidebar:
+  id: 17
+  title: 'Right Sidebar'
+  preset: default
+two_sidebars:
+  id: 18
+  title: 'Two Sidebars'
+  preset: default
+two_sidebars_left:
+  id: 19
+  title: 'Two Sidebars Left'
+  preset: default
+two_sidebars_right:
+  id: 20
+  title: 'Two Sidebars Right'
+  preset: default
+rows_columns:
+  id: 21
+  title: 'Rows Columns'
+  preset: default

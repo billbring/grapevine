@@ -1,0 +1,13 @@
+email: nigel.frost@gvnm.co.uk
+fullname: 'Nigel Frost'
+title: Administrator
+state: enabled
+access:
+  admin:
+    super: 'true'
+    login: 'true'
+  site:
+    login: 'true'
+hashed_password: $2y$10$/6AdZWf9tphk2k0GIdK0luKm/mn9evh51uZXWRyJ9K.M7fN3Ut7iy
+language: en
+reset: '061869db2f1ca543378904d87b626d67::1488573153'

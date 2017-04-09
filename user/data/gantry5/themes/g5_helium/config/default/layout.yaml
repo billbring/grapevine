@@ -1,0 +1,146 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1475608600
+layout:
+  /navigation/:
+    -
+      - 'logo-9608 23'
+      - 'menu-6409 67'
+      - 'social-3171 10'
+  /header/:
+    -
+      - custom-7817
+  /intro/:
+    -
+      - custom-9720
+  /features/: {  }
+  /utility/: {  }
+  /above/: {  }
+  /testimonials/: {  }
+  /expanded/: {  }
+  /container-main/:
+    -
+      -
+        'mainbar 75':
+          -
+            - system-content-1587
+      -
+        'sidebar 25':
+          -
+            - position-position-3949
+  /call/: {  }
+  /footer/:
+    -
+      - 'logo-9571 21'
+      - 'spacer-2500 46'
+      - 'totop-8670 33'
+    -
+      - 'copyright-1736 50'
+      - 'horizontalmenu-1158 50'
+  /offcanvas/:
+    -
+      - mobile-menu-5697
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+  header:
+    attributes:
+      boxed: ''
+      class: ''
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+      extra:
+        -
+          style: 'background:white; padding-bottom:0'
+  features:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  mainbar:
+    type: section
+    subtype: main
+  sidebar:
+    type: section
+    subtype: aside
+  container-main:
+    attributes:
+      boxed: ''
+  call:
+    type: section
+    attributes:
+      boxed: ''
+  footer:
+    attributes:
+      boxed: ''
+  offcanvas:
+    attributes:
+      boxed: ''
+content:
+  logo-9608:
+    title: 'Logo / Image'
+    block:
+      variations: align-right
+  menu-6409:
+    block:
+      class: menu
+      variations: align-right
+  social-3171:
+    block:
+      class: g-social-header
+  custom-7817:
+    title: 'Custom HTML'
+    attributes:
+      html: '&nbsp;'
+    block:
+      variations: center
+  custom-9720:
+    title: 'Custom HTML'
+    attributes:
+      html: "<h1 style=\"margin-bottom:0\">\n{% if page.header.heading %}\n{{ page.header.heading }}\n{% else %}\n{{ page.title }}\n{% endif %}\n</h1>"
+  position-position-3949:
+    title: Sidebar
+    attributes:
+      key: sidebar
+  logo-9571:
+    title: 'Logo / Image'
+  totop-8670:
+    title: 'To Top'
+    block:
+      class: zero-padding
+  horizontalmenu-1158:
+    title: 'Horizontal Menu'
+    attributes:
+      class: ''
+      items:
+        -
+          text: info@gvnm.co.uk
+          link: 'mailto:info@gvnm.co.uk'
+          name: email
+        -
+          text: '0115 978 8180'
+          link: 'tel:01159788180'
+          name: phone

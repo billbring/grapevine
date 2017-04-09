@@ -1,0 +1,17 @@
+title: 'Grapevine Network Management'
+default_lang: en
+author:
+  name: 'Nigel Frost'
+  email: nigel.frost@gvnm.co.uk
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'Specialists in IT Support and Network Management'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
