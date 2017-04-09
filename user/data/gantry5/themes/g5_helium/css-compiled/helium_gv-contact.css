@@ -77,7 +77,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   font-family: 'rockettheme-apps';
   font-style: normal;
   font-weight: normal;
-  src: url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.eot?58c86d74#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff2?58c86d74') format("woff2"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff?58c86d74') format("woff"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.ttf?58c86d74') format("truetype"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.svg?58c86d74#rockettheme-apps') format("svg");
+  src: url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.eot?58ea4a7c#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff2?58ea4a7c') format("woff2"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.woff?58ea4a7c') format("woff"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.ttf?58ea4a7c') format("truetype"), url('../../../../../themes/g5_helium/fonts/rockettheme-apps/rockettheme-apps.svg?58ea4a7c#rockettheme-apps') format("svg");
 }
 /* line 4, user/themes/g5_helium/scss/helium/styles/_fonts.scss */
 i.fa-grav-spaceman, i.fa-grav-text, i.fa-grav-full, i.fa-grav-logo, i.fa-grav-symbol, i.fa-grav-logo-both, i.fa-grav-both, i.fa-gantry, i.fa-gantry-logo, i.fa-gantry-symbol, i.fa-gantry-logo-both, i.fa-gantry-both {
@@ -168,38 +168,38 @@ body span.para {
 }
 /* line 1, user/themes/g5_helium/scss/helium/styles/_hyperlinks.scss */
 a {
-  color: #1f1f1f;
+  color: #4db2b3;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
-/* line 4, user/themes/g5_helium/scss/helium/styles/_hyperlinks.scss */
+/* line 5, user/themes/g5_helium/scss/helium/styles/_hyperlinks.scss */
 a:hover {
-  color: inherit;
+  color: #424753;
 }
 @font-face {
   font-family: "lato";
   font-style: normal;
   font-weight: 900;
-  src: url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.eot?58c86d73#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.woff2?58c86d73') format("woff2"), url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.woff?58c86d73') format("woff"), url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.ttf?58c86d73') format("truetype"), url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.svg?58c86d73#lato') format("svg");
+  src: url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.eot?58ea4a7b#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.woff2?58ea4a7b') format("woff2"), url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.woff?58ea4a7b') format("woff"), url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.ttf?58ea4a7b') format("truetype"), url('../../../../../themes/g5_helium/fonts/lato/lato-black/lato-black-webfont.svg?58ea4a7b#lato') format("svg");
 }
 @font-face {
   font-family: "lato";
   font-style: normal;
   font-weight: 700;
-  src: url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.eot?58c86d73#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff2?58c86d73') format("woff2"), url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff?58c86d73') format("woff"), url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.ttf?58c86d73') format("truetype"), url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.svg?58c86d73#lato') format("svg");
+  src: url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.eot?58ea4a7b#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff2?58ea4a7b') format("woff2"), url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.woff?58ea4a7b') format("woff"), url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.ttf?58ea4a7b') format("truetype"), url('../../../../../themes/g5_helium/fonts/lato/lato-bold/lato-bold-webfont.svg?58ea4a7b#lato') format("svg");
 }
 @font-face {
   font-family: "lato";
   font-style: normal;
   font-weight: 400;
-  src: url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.eot?58c86d73#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff2?58c86d73') format("woff2"), url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff?58c86d73') format("woff"), url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.ttf?58c86d73') format("truetype"), url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.svg?58c86d73#lato') format("svg");
+  src: url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.eot?58ea4a7b#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff2?58ea4a7b') format("woff2"), url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.woff?58ea4a7b') format("woff"), url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.ttf?58ea4a7b') format("truetype"), url('../../../../../themes/g5_helium/fonts/lato/lato-regular/lato-regular-webfont.svg?58ea4a7b#lato') format("svg");
 }
 @font-face {
   font-family: "lato";
   font-style: normal;
   font-weight: 200;
-  src: url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.eot?58c86d73#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.woff2?58c86d73') format("woff2"), url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.woff?58c86d73') format("woff"), url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.ttf?58c86d73') format("truetype"), url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.svg?58c86d73#lato') format("svg");
+  src: url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.eot?58ea4a7b#iefix') format("embedded-opentype"), url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.woff2?58ea4a7b') format("woff2"), url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.woff?58ea4a7b') format("woff"), url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.ttf?58ea4a7b') format("truetype"), url('../../../../../themes/g5_helium/fonts/lato/lato-light/lato-light-webfont.svg?58ea4a7b#lato') format("svg");
 }
 /* line 5, user/themes/g5_helium/scss/helium/styles/_typography.scss */
 body {
@@ -1457,7 +1457,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding: 3rem 0;
   position: relative;
   z-index: 10;
-  background: url('../../../../../images/g5_helium/header/grapevine-it-support-education-04.jpg') center center no-repeat;
+  background: url('../../../../../images/g5_helium/header/grapevine-it-support-education-04.jpg?58ea5102') center center no-repeat;
   background-size: cover;
 }
 /* line 30, user/themes/g5_helium/scss/helium/sections/_header.scss */
@@ -1942,7 +1942,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding: 3rem 0;
   position: relative;
   z-index: 10;
-  background: url('../../../../../images/g5_helium/testimonials/florists.jpg') no-repeat center top;
+  background: url('../../../../../images/g5_helium/testimonials/florists.jpg?58ea5102') no-repeat center top;
   background-size: cover;
 }
 /* line 27, user/themes/g5_helium/scss/helium/sections/_testimonials.scss */
@@ -2616,6 +2616,11 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   font-size: 1rem;
   vertical-align: text-top;
 }
+/* line 135, user/themes/g5_helium/scss/helium/particles/_contentcubes.scss */
+/* line 136, user/themes/g5_helium/scss/helium/particles/_contentcubes.scss */
+.g-contentcubes .cube-items-wrapper .cube-content-wrapper .item-tags .tag a:hover {
+  color: inherit;
+}
 /* line 1, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
 .ui-tabs {
   position: relative;
@@ -2661,12 +2666,16 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
   text-decoration: none;
 }
-/* line 39, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
+/* line 36, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor:hover {
+  color: inherit;
+}
+/* line 43, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
 .ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
   cursor: pointer;
 }
-/* line 43, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
-/* line 44, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
+/* line 47, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
+/* line 48, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
 .g-contenttabs .g-contenttabs-tab-wrapper-container {
   list-style: none;
   margin: 0 0 1rem 0;
@@ -2677,11 +2686,11 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     border: 0 none;
   }
 }
-/* line 53, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
+/* line 57, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
 .g-contenttabs .g-contenttabs-tab {
   outline: none;
 }
-/* line 57, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
+/* line 61, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
 .g-contenttabs .g-contenttabs-tab-wrapper-head {
   display: block;
   height: 100%;
@@ -2696,7 +2705,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     border-radius: 0;
   }
 }
-/* line 70, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
+/* line 74, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
 .g-contenttabs .g-contenttabs-tab-wrapper-head .g-contenttabs-tab-title {
   display: block;
   outline: none;
@@ -2704,17 +2713,17 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   text-transform: uppercase;
   font-weight: 700;
 }
-/* line 79, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
+/* line 83, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
 .g-contenttabs .g-contenttabs-content-wrapper-container {
   list-style: none;
   margin: 0;
   padding: 0.938rem 0;
 }
-/* line 84, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
+/* line 88, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
 .g-contenttabs .g-contenttabs-content-wrapper-container .g-contenttabs-tab-wrapper-body {
   padding: 0;
 }
-/* line 87, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
+/* line 91, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
 .g-contenttabs .g-contenttabs-content-wrapper-container .g-contenttabs-tab-wrapper-body .g-contenttabs-content {
   display: -webkit-box;
   display: -moz-box;
@@ -2736,10 +2745,15 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 96, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
 /* line 97, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
+.g-contenttabs .g-contenttabs-content-wrapper-container .g-contenttabs-tab-wrapper-body .g-contenttabs-content a:hover {
+  color: inherit;
+}
+/* line 106, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
+/* line 107, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
 .ui-tabs-active .g-contenttabs-tab-wrapper-head {
   background: #1f1f1f;
 }
-/* line 101, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
+/* line 111, user/themes/g5_helium/scss/helium/particles/_contenttabs.scss */
 .ui-tabs-active .g-contenttabs-tab-title {
   color: #fff;
 }
