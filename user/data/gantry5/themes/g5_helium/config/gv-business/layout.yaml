@@ -23,6 +23,8 @@ layout:
         'sidebar 30':
           -
             - contentarray-9614
+          -
+            - custom-6261
   call: {  }
   footer: {  }
   offcanvas: {  }
@@ -115,3 +117,7 @@ content:
     block:
       class: 'zero-padding left-align'
       variations: box-outline
+  custom-6261:
+    title: 'Custom HTML'
+    attributes:
+      html: gtrgrtt
