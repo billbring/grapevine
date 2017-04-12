@@ -1,0 +1,64 @@
+name: gv-testimonials
+timestamp: 1492032354
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1468340932
+positions: {  }
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  call: Call
+  header: Header
+  mainbar: Mainbar
+  sidebar: Sidebar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-5209: 'Logo / Image'
+    logo-7174: 'Logo / Image'
+  menu:
+    menu-8776: Menu
+  social:
+    social-8127: Social
+  custom:
+    custom-9806: 'Blank space'
+    custom-9720: H1
+    custom-3739: 'Call to action'
+  content:
+    system-content-2971: 'Page Content'
+  spacer:
+    spacer-5655: Spacer
+  totop:
+    totop-6991: 'To Top'
+  copyright:
+    copyright-5123: Copyright
+  horizontalmenu:
+    horizontalmenu-3253: 'Horizontal Menu'
+  mobile-menu:
+    mobile-menu-6326: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    logo-5209: logo-9608
+    menu-8776: menu-6409
+    social-8127: social-3171
+    header: header
+    custom-9806: custom-7817
+    call: call
+    custom-3739: custom-7062
+    footer: footer
+    logo-7174: logo-9571
+    spacer-5655: spacer-2500
+    totop-6991: totop-8670
+    copyright-5123: copyright-1736
+    horizontalmenu-3253: horizontalmenu-1158
+    offcanvas: offcanvas
+    mobile-menu-6326: mobile-menu-5697

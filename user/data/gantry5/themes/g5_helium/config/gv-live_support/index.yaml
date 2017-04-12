@@ -1,5 +1,5 @@
 name: gv-live_support
-timestamp: 1491776614
+timestamp: 1492031038
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -31,7 +31,7 @@ particles:
     system-content-9616: 'Page Content'
   custom:
     custom-2004: 'Custom HTML'
-    custom-3785: 'Custom HTML'
+    custom-3785: 'Blank space'
   logo:
     logo-9268: 'Logo / Image'
     logo-1243: 'Logo / Image'

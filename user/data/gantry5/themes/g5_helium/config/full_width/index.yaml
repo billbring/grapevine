@@ -1,5 +1,5 @@
 name: full_width
-timestamp: 1491776613
+timestamp: 1492031038
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -24,7 +24,7 @@ particles:
   custom:
     custom-9029: Header
     custom-7890: Content
-    custom-5071: 'Custom HTML'
+    custom-5071: Sidebar
   logo:
     logo-1212: 'Logo / Image'
     logo-1291: 'Logo / Image'

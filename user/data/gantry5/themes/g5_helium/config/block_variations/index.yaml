@@ -1,5 +1,5 @@
 name: block_variations
-timestamp: 1491776613
+timestamp: 1492031038
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -46,9 +46,9 @@ particles:
     custom-7473: 'Box Outline, Shadow'
     custom-1717: 'Box 2, Disabled'
     custom-2883: 'Title Outline, Centered Title'
-    custom-7014: 'Custom HTML'
-    custom-3560: 'Custom HTML'
-    custom-5214: 'Custom HTML'
+    custom-7014: 'Blank space'
+    custom-3560: H1
+    custom-5214: Sidebar
   logo:
     logo-6485: 'Logo / Image'
     logo-7038: 'Logo / Image'

@@ -23,8 +23,6 @@ items:
     dropdown_dir: right
     dropdown_hide: '0'
     width: auto
-  testimonials:
-    enabled: true
     anchor_class: ''
   contact:
     enabled: true
@@ -33,6 +31,11 @@ items:
     enabled: true
     class: btn-support
     anchor_class: ''
+  testimonials:
+    enabled: '0'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
   styles/__particle-2IjaB:
     type: particle
     particle: custom

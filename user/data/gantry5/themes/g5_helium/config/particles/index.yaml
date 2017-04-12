@@ -1,5 +1,5 @@
 name: particles
-timestamp: 1491776614
+timestamp: 1492031038
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -33,9 +33,9 @@ particles:
   social:
     social-6869: Social
   custom:
-    custom-1138: 'Custom HTML'
-    custom-5616: 'Custom HTML'
-    custom-6225: 'Custom HTML'
+    custom-1138: 'Blank space'
+    custom-5616: H1
+    custom-6225: Sidebar
   spacer:
     spacer-9070: Spacer
   totop:

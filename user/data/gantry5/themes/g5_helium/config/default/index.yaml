@@ -1,5 +1,5 @@
 name: default
-timestamp: 1491776614
+timestamp: 1492031038
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -29,10 +29,10 @@ particles:
   social:
     social-3171: Social
   custom:
-    custom-7817: 'Custom HTML'
-    custom-9720: 'Custom HTML'
-    custom-7687: 'Custom HTML'
-    custom-5581: 'Custom HTML'
+    custom-7817: 'Blank space'
+    custom-9720: H1
+    custom-7687: 'Main content'
+    custom-5581: Sidebar
     custom-7062: 'Call to action'
   spacer:
     spacer-9489: Spacer

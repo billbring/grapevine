@@ -115,21 +115,21 @@ content:
     block:
       class: g-social-header
   custom-7817:
-    title: 'Custom HTML'
+    title: 'Blank space'
     attributes:
       html: '&nbsp;'
     block:
       variations: center
   custom-9720:
-    title: 'Custom HTML'
+    title: H1
     attributes:
       html: "<h1 style=\"margin-bottom:0\">\n{% if page.header.heading %}\n{{ page.header.heading }}\n{% else %}\n{{ page.title }}\n{% endif %}\n</h1>"
   custom-7687:
-    title: 'Custom HTML'
+    title: 'Main content'
     attributes:
       html: "{% set content = page.content|slice(page.summary|length) %}\n{{ content|raw }}"
   custom-5581:
-    title: 'Custom HTML'
+    title: Sidebar
     attributes:
       html: '{{ page.summary|raw }}'
     block:

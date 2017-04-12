@@ -1,5 +1,5 @@
 name: gv-home
-timestamp: 1491776698
+timestamp: 1492031038
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -21,13 +21,6 @@ sections:
   footer: Footer
   offcanvas: Offcanvas
 particles:
-  logo:
-    logo-4206: 'Logo / Image'
-    logo-9842: 'Logo / Image'
-  menu:
-    menu-1477: Menu
-  social:
-    social-8780: Social
   owlcarousel:
     owlcarousel-2455: Carousel
   content:
@@ -43,6 +36,13 @@ particles:
     spacer-4963: Spacer
   contentcubes:
     contentcubes-7850: 'Content Cubes'
+  logo:
+    logo-4206: 'Logo / Image'
+    logo-9842: 'Logo / Image'
+  menu:
+    menu-1477: Menu
+  social:
+    social-8780: Social
   totop:
     totop-6437: 'To Top'
   copyright:
@@ -54,16 +54,16 @@ particles:
 inherit:
   default:
     navigation: navigation
+    call: call
+    footer: footer
+    offcanvas: offcanvas
     logo-4206: logo-9608
     menu-1477: menu-6409
     social-8780: social-3171
-    call: call
     custom-6015: custom-7062
-    footer: footer
     logo-9842: logo-9571
     spacer-4963: spacer-2500
     totop-6437: totop-8670
     copyright-7844: copyright-1736
     horizontalmenu-9495: horizontalmenu-1158
-    offcanvas: offcanvas
     mobile-menu-4725: mobile-menu-5697

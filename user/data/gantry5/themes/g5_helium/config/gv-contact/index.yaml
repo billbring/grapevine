@@ -1,5 +1,5 @@
 name: gv-contact
-timestamp: 1491776614
+timestamp: 1492031038
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -23,7 +23,7 @@ sections:
 particles:
   custom:
     custom-6833: Header
-    custom-6260: 'Custom HTML'
+    custom-6260: H1
   content:
     system-content-3977: 'Page Content'
   spacer:
