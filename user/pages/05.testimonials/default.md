@@ -12,6 +12,7 @@ title: Testimonials
 <div class="g-user-details">
 <div class="g-user-name">Fiona Sellar, Computing coordinator</div>
 <div class="g-user-company"></div></div></div>
+<!--END TESTIMONIAL 1-->
 
 
 <!--TESTIMONIAL 2-->
@@ -23,3 +24,4 @@ title: Testimonials
 <div class="g-user-details">
 <div class="g-user-name">Helen, <a target="_blank" href="http://www.tomkinsflorists.net/">Tomkins Florists</a></div>
 <div class="g-user-company"></div></div></div>
+<!--END TESTIMONIAL 2-->

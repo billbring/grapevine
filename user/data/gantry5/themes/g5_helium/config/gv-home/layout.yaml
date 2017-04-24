@@ -27,6 +27,8 @@ layout:
       - contentcubes-7850
   /testimonials/:
     -
+      - custom-9526
+    -
       block-8620: {  }
   /expanded/: {  }
   /container-main/:
@@ -211,3 +213,9 @@ content:
           buttonclass: ''
           buttontarget: _self
           name: wifi
+  custom-9526:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div class=\"fp-testimonials\">\n    <blockquote>\n        <p class=\"h3\">\"We have used Grapevine Network Management Ltd for many years, both for business and personal use. They have always responded very quickly and with the upmost efficiency. I would highly recommend them.\n\n\"</p>\n        <footer>Helen, Tomkins Florists</footer>\n    </blockquote>\n<p><a href=\"/testimonials\">See more testimonials...</a></p>\n</div>"
+    block:
+      variations: center

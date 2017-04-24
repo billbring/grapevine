@@ -1,3 +1,45 @@
+# v1.4.1
+## 04/19/2017
+
+1. [](#bugfix)
+    * Reverted [#1069](https://github.com/getgrav/grav-plugin-admin/pull/1069) as it conflicts ith Gantry5
+
+# v1.4.0
+## 04/19/2017
+
+1. [](#new)
+    * Added ability to add new pages/folders while editing existing page
+1. [](#improved)
+    * Initialize theme in Admin Plugin [#1069](https://github.com/getgrav/grav-plugin-admin/pull/1069)
+    * Use new system configuration entries for username and password format
+    * Reworked Page parent field to use `Pages::getList()` rather than logic in Twig field itself
+    * More robust styling of admin themes page [#1067](https://github.com/getgrav/grav-plugin-admin/pull/1067)
+    * Fix fullscreen editor height [#1065](https://github.com/getgrav/grav-plugin-admin/pull/1065)
+    * Fix small UI issue in the editor with `codemirror.lineNumbers` && `codemirror.styleActiveLine` enabled
+    * Fix UI performance issue in the dashboard [#1064](https://github.com/getgrav/grav-plugin-admin/issues/1064)
+1. [](#bugfix)
+    * Fixed issue with parent not working with custom slug [#1068](https://github.com/getgrav/grav-plugin-admin/issues/1068)
+    * Fixed issue with new page modal not remembering last choice [#1072](https://github.com/getgrav/grav-plugin-admin/issues/1072)
+    
+# v1.3.3
+## 04/12/2017
+
+1. [](#bugfix)
+    * Fix for regression introduced in the automatic page template switch when changing page parent [#1059](https://github.com/getgrav/grav-plugin-admin/issues/1059) [grav#1403](https://github.com/getgrav/grav/issues/1403) [#1062](https://github.com/getgrav/grav-plugin-admin/issues/1062)
+    * Fix issue with editor field in lists [#1037](https://github.com/getgrav/grav-plugin-admin/issues/1037)
+
+# v1.3.2
+## 04/10/2017
+
+1. [](#improved)
+    * Added new 'parents' field and switched Page blueprints to use this
+1. [](#bugfix)
+    * Fix for regression in h3 style in the Spacer field [#267](https://github.com/getgrav/grav-plugin-admin/issues/267)
+    * Fix missing preview in page media for SVG images [#1051](https://github.com/getgrav/grav-plugin-admin/issues/1051)
+    * Fix missing check when reordering [#1053](https://github.com/getgrav/grav-plugin-admin/issues/1053)
+    * Fix for editors not getting refreshed when changing tab [#1052](https://github.com/getgrav/grav-plugin-admin/issues/1052)
+    * Fix for mobile tabs in page editing [#1057](https://github.com/getgrav/grav-plugin-admin/issues/1057)
+
 # v1.3.1
 ## 03/31/2017
 
@@ -15,7 +57,7 @@
 1. [](#bugfix)
     * Fixed issue with exception thrown when `copying` and `moving` a page [#1042](https://github.com/getgrav/grav-plugin-admin/issues/1042)
     * Automatically calculate the *next* numeric folder prefix [Core#1386](https://github.com/getgrav/grav/issues/1386)
-    
+
 # v1.3.0-rc.3
 ## 03/22/2017
 
@@ -55,7 +97,7 @@
 1. [](#bugfix)
     * Fixed rendering issue with Chrome and sortables collections [#1002](https://github.com/getgrav/grav-plugin-admin/issues/1002)
     * Fixed issue with removal of file that has been just uploaded and stored in the session
-   
+
 
 # v1.2.14
 ## 02/17/2017
